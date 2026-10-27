@@ -61,9 +61,8 @@ def load_full(path):
                 continue
             addr = int(m.group('addr'), 16)
             rest = m.group('rest')
-            if rest.startswith('\t'):
-                rest = rest[1:]
-            key = norm(rest)
+            rest = rest.lstrip('\t')                      # 去掉所有前导 tab
+            key = norm(rest.split('\t', 1)[0])            # 只取英文列
             if not key:
                 continue
             exact[key].append(addr)
@@ -92,13 +91,15 @@ def main():
     print(f"[i] full_en: {len(exact)} 个唯一英文, "
           f"{sum(len(v) for v in exact.values())} 个地址条目", file=sys.stderr)
 
-    # 保留原文件 BOM 状态
+    # 保留原文件 BOM 状态（供写回时使用）
     with open(args.map_txt, 'rb') as fb:
         has_bom = fb.read(3) == b'\xef\xbb\xbf'
     enc = 'utf-8-sig' if has_bom else 'utf-8'
 
-    with open(args.map_txt, 'r', encoding=enc, errors='replace', newline='') as f:
+    # 读取：utf-8-sig 自动去 BOM；统一换行符为 LF 后再切行
+    with open(args.map_txt, 'r', encoding='utf-8-sig', errors='replace') as f:
         content = f.read()
+    content = content.replace('\r\n', '\n').replace('\r', '\n')
     lines = content.split('\n')
 
     used = defaultdict(set)

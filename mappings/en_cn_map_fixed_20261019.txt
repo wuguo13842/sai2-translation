@@ -417,7 +417,7 @@
 0x00369448	Computing File Size ...	正在计算文件大小 ...
 0x00369478	Creating Preview Image ...	正在创建预览图像 ...
 0x003694B0	Compression Rate :	压缩率 :
-0x003698D8	999999.99KB	999999.99KB
+0x003694D8	999999.99KB	999999.99KB
 0x003694F0	File Size :	文件大小 :
 0x00369508	Compression Result	压缩结果
 0x00369530	TGA File	TGA 文件
@@ -510,19 +510,19 @@
 0x0036A4B0	1 Chars	1 个字符
 0x0036A4C0	Right/Bottom 	(1:0:0)	右/下对齐 	(1:0:0)
 0x0036A4F0	Left/Top 	(0:0:1)	左/上对齐 	(0:0:1)
-0x00368198	Center 	(1:0:1)	居中 	(1:0:1)
+0x0036A518	Center 	(1:0:1)	居中 	(1:0:1)
 0x0036A538	Distribute 	(0:1:0)	均等分配 	(0:1:0)
 0x0036A560	Distribute 	(1:2:1)	均等分配 	(1:2:1)
 0x0037E228	Lanczos 3	(High Quality)	Lanczos 3	(高品质)
 0x0037E268	Lanczos 2	(Good Quality)	Lanczos 2	(中品质)
 0x0036A6D8	Bicubic	(Sharp)	双三次	(锐利)
 0x0036A6E8	Bilinear	(Smooth)	双线性	(平滑)
-0x0036A700	Nearest Neighbor	(Rough)	最邻近	(粗糙)
-0x0036A6E8	Bilinear	(Draft)	双线性	(简易)
-0x0036A700	Nearest Neighbor	(Draft)	最邻近	(简易)
-0x0036A6D8	Bicubic	双三次
-0x0036A6E8	Bilinear	双线性
-0x0036A700	Nearest Neighbor	最邻近
+0x0036A6A0	Nearest Neighbor	(Rough)	最邻近	(粗糙)
+0x0036A678	Bilinear	(Draft)	双线性	(简易)
+0x0036A640	Nearest Neighbor	(Draft)	最邻近	(简易)
+0x0036A5F8	Bicubic	双三次
+0x0036A618	Bilinear	双线性
+0x0036A6A0	Nearest Neighbor	最邻近
 0x0036A728	Manual Input	手动输入
 0x0036A788	Ver.1 Mode	Ver.1 方式
 0x0036A7A0	Normal Mode	通常方式
@@ -798,7 +798,8 @@
 0x0036C658	Roundness	角落圆度
 0x0036C670	Bevel Length	角落长度
 0x0036C690	End Marker	终点记号
-0x0036C6A8	Start Marker	起点记号0x0036CAC8	Line  	线
+0x0036C6A8	Start Marker	起点记号
+0x0036C6C8	Line  	线
 0x0036C6D8	No parameters	无参数
 0x0036C6F8	Fill	填充
 0x0036C708	Pressure for Density	浓度的笔压
@@ -818,7 +819,25 @@
 0x0036C9B0	- Select CPs	- 选择控制点
 0x0036C9D0	Modifier Key for Rect. Selection:	矩形选择的修饰键 :
 0x0036CA18	Quick Reference for misc.	其他操作的简单说明
-0x0036CA50	These operations are also available in other linework/shape layer tools.	这些操作也可在其他钢笔/形状图层工具中使用。0x0036CAF0	 ※ ●...Control Point, /...Curve	 ※ ●...控制点，/...曲线0x0036CF30	Move Shape (ctrl+alt+/)	移动图形 (ctrl+alt+/)0x0036CF60	Pointed/Rounded (ctrl+alt+●)	锐角点切换 (ctrl+alt+●)0x0036CFA0	Connect CPs (shift+ctrl+●->●)	路径连接点 (shift+ctrl+●->●)0x0036CFE0	Delete Path (shift+ctrl+alt)	删除路径 (shift+ctrl+alt)0x0036D020	Duplicate Path (shift+ctrl+/)	复制移动路径 (shift+ctrl+/)0x0036D060	Move Path (shift+alt+/)	移动路径 (shift+alt+/)0x0036D090	Deform. Anchor (shift+alt+●)	变形分隔切换 (shift+alt+●)0x0036D0D0	Deform Path (shift)	宏变形 (shift)0x0036D0F8	Delete CP/Curve (alt)	删除控制点/曲线 (alt)0x0036D128	Move/Add CP (ctrl)	添加/移动控制点 (ctrl)0x0036D150	Select	选择0x0036D160	Note: Right Click samples stroke parameters.	提示：右键单击可获取笔画参数。0x0036D1C0	Prs. Hard ⇔ Soft: Blur	笔压 硬⇔软 - 模糊宽度0x0036D1F0	Prs. Hard ⇔ Soft: Blending	笔压 硬⇔软 - 混色0x0036D228	Prs. Hard ⇔ Soft: Density	笔压 硬⇔软 - 画笔浓度0x0036D260	Prs. Hard ⇔ Soft: Brush Size	笔压 硬⇔软 - 画笔大小0x0036D2A0	Pressure Sensitivity:	笔压灵敏度:
+0x0036CA50	These operations are also available in other linework/shape layer tools.	这些操作也可在其他钢笔/形状图层工具中使用。
+0x0036CAF0	 ※ ●...Control Point, /...Curve	 ※ ●...控制点，/...曲线
+0x0036CB30	Move Shape (ctrl+alt+/)	移动图形 (ctrl+alt+/)
+0x0036CF60	Pointed/Rounded (ctrl+alt+●)	锐角点切换 (ctrl+alt+●)
+0x0036CFA0	Connect CPs (shift+ctrl+●->●)	路径连接点 (shift+ctrl+●->●)
+0x0036CBE0	Delete Path (shift+ctrl+alt)	删除路径 (shift+ctrl+alt)
+0x0036CC20	Duplicate Path (shift+ctrl+/)	复制移动路径 (shift+ctrl+/)
+0x0036CC60	Move Path (shift+alt+/)	移动路径 (shift+alt+/)
+0x0036D090	Deform. Anchor (shift+alt+●)	变形分隔切换 (shift+alt+●)
+0x0036CCD0	Deform Path (shift)	宏变形 (shift)
+0x0036CCF8	Delete CP/Curve (alt)	删除控制点/曲线 (alt)
+0x0036CD28	Move/Add CP (ctrl)	添加/移动控制点 (ctrl)
+0x0036D150	Select	选择
+0x0036CD60	Note: Right Click samples stroke parameters.	提示：右键单击可获取笔画参数。
+0x0036D1C0	Prs. Hard ⇔ Soft: Blur	笔压 硬⇔软 - 模糊宽度
+0x0036D1F0	Prs. Hard ⇔ Soft: Blending	笔压 硬⇔软 - 混色
+0x0036D228	Prs. Hard ⇔ Soft: Density	笔压 硬⇔软 - 画笔浓度
+0x0036D260	Prs. Hard ⇔ Soft: Brush Size	笔压 硬⇔软 - 画笔大小
+0x0036CEA0	Pressure Sensitivity:	笔压灵敏度:
 0x0036CED0	Anti-Ripple for Flatten Brush	降低扁平画笔的波纹
 0x0036CF10	Disable Density Control Assist	禁用浓度调节辅助
 0x0036CF50	Amplify Dens.	浓度增幅
@@ -898,7 +917,8 @@
 0x0036D6F0	Memory Usage	内存使用量
 0x0036D710	Snap	吸附
 0x0036D720	Stabilizer	手抖补正
-0x0036D738	Brush Size	画笔大小0x0036DB50	Lock	锁定
+0x0036D738	Brush Size	画笔大小
+0x0036D750	Lock	锁定
 0x0036D760	Opacity	不透明度
 0x0036D770	Mode	模式
 0x0036D780	LPI	线数
@@ -962,7 +982,8 @@
 0x0036E2E8	Switch to Transparency	切换前景色和透明色
 0x0036E320	Exchange Foreground Color and Background Color	交换前景色和背景色
 0x0036E380	Change Background Color	更改背景色
-0x0036E3B0	Change Foreground Color	更改前景色0x0036E7E0	System ID ...	系统 ID ...
+0x0036E3B0	Change Foreground Color	更改前景色
+0x0036E3E0	System ID ...	系统 ID ...
 0x0036E400	Options ...	设置 ...
 0x0036E418	Shortcut Keys ...	快捷键设置 ...
 0x0036E440	Asset Manager ...	素材・工具管理 ...
@@ -1129,7 +1150,8 @@
 0x003701A0	Convert Symmetric Shapes to Regular Shapes	将对称映射转换为实际图形
 0x003701F8	Rasterize	栅格化
 0x00370210	Convert Luminance to Opacity	将亮度转换为不透明度
-0x00370250	Outline ...	绘制轮廓线 ...0x00370668	Fill	填充
+0x00370250	Outline ...	绘制轮廓线 ...
+0x00370268	Fill	填充
 0x00370278	Flatten Image	拼合图像
 0x00370298	Merge Visible Layers	合并可见图层
 0x003702C8	Merge Layers	合并图层
@@ -1264,7 +1286,7 @@
 0x003722D0	Unsupported channel combination.	不支持的通道组合。
 0x00372320	The nest of folders is corrupt.	图层组的嵌套结构已损坏。
 0x00372360	The number of layer move group IDs is invalid.	图层移动组的 ID 数量不正确。
-0x003727C0	The limit of Width or Height for PSB format is 300000px.	PSB 格式的宽度和高度上限为 300000px。
+0x003723C0	The limit of Width or Height for PSB format is 300000px.	PSB 格式的宽度和高度上限为 300000px。
 0x00372440	The limit of Width or Height for PSD format is 30000px.	PSD 格式的宽度和高度上限为 30000px。
 0x003724B0	This PSB file has illegal version number.	版本号不正确的 PSB 文件。
 0x00372510	This PSD file has illegal version number.	版本号不正确的 PSD 文件。
@@ -1291,9 +1313,10 @@
 0x00372DF0	Creation of recovery point failed.	恢复点创建失败。
 0x00372E40	A fatal error occurred on layer move. Please restart the program.	图层移动时发生无法恢复的错误。请重新启动程序。
 0x00372ED0	The manual saved point associated to this SAI2 file not found.	不存在与此 SAI2 格式对应的手动保存点。
-0x00372F50	Cannot recover this recovery data in this older version of SAI Ver.2.	此恢复数据无法在当前使用的旧版 SAI 中恢复。0x003733E0	The layer is not placed in ±100000px from center of canvas.	图层位置超出画布中心 ±100000px 的范围。
-0x00373460	The limit of canvas height is 100000px.	画布高度上限为 100000px。
-0x003734B0	The limit of canvas width is 100000px.	画布宽度上限为 100000px。
+0x00372F50	Cannot recover this recovery data in this older version of SAI Ver.2.	此恢复数据无法在当前使用的旧版 SAI 中恢复。
+0x003733E0	The layer is not placed in ±100000px from center of canvas.	图层位置超出画布中心 ±100000px 的范围。
+0x00373060	The limit of canvas height is 100000px.	画布高度上限为 100000px。
+0x003730B0	The limit of canvas width is 100000px.	画布宽度上限为 100000px。
 0x00373100	The file size exceeds the limit of 2GB.	文件大小超过上限 2GB。
 0x00373150	The file size exceeds the limit of 256TB.	文件大小超过上限 256TB。
 0x003731B0	The number of hair points of this bristle definition bitmap is more than 63.	所选鬃毛定义位图的毛点数超过 63 点。
@@ -1608,7 +1631,8 @@
 
 
 # ===== FORCE WRITE =====
-0x????????	确定清除列表吗？	0x003689CC0x0036D0E4	不执行
+0x????????	确定清除列表吗？	0x003689CC
+0x0036D0E4	不执行
 //0x00369C90	新建画布...	0x003992E8
 
 //Delete

@@ -1,0 +1,16 @@
+# 可执行文件
+*.exe
+Temp.exe
+new.exe
+
+# 日志
+*.log
+apply_log.txt
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 提取工具临时输出
+tools/*.txt
+tools/*.bin

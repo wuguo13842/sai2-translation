@@ -1,0 +1,1914 @@
+0x00361368	Open [Asset Manager] dialog.	打开[素材管理器]对话框。
+0x003613A8	Delete the current asset.	删除素材。
+0x003613E0	Register canvas image as a asset.	将画布图像登记为新素材。
+0x00361428	Create a new asset.	创建新素材。
+0x00361450	Save scattering parameters to the form data. These parameters are shared between all tools.	将当前散布设置保存到形状数据。设置在各工具间共享。
+0x00361510	Specify to reset scattering parameters when select a asset.	设置选择散布形状时是否重置散布设置。
+0x00361590	Specify the initial setting for the shift behavior.	设置 Shift 操作的初始设置。
+0x00361600	Turn on/off the shift behavior.	设置是否执行 Shift 操作。
+0x00361640	Hide function sections that any function is not assigned when selected a shortcut key.	设置选择快捷键时是否关闭所有未分配的功能层级。
+0x003050A0	Specify the curve interpolation when the stroke stabilizer is enabled.	启用手抖补正时的曲线插值方式。
+0x00304FC0	Specify the mode of the stroke stabilizer independently.	设置手抖补正方式，仅对当前工具生效。
+0x00304ED0	Specify the level of the stroke stabilizer independently.	设置手抖补正强度，仅对当前工具生效。
+0x00304D38	Delete the selected preset.	删除所选预设尺寸。
+0x00304C78	Modify the selected preset.	修改所选预设尺寸。
+0x00304E30	Insert a separator to the selected position.	在所选位置插入分隔线。
+0x00304D70	Create a new preset and insert it to the selected position.	在所选位置创建并插入新的预设尺寸。
+0x00304CB0	Register the current metrics into canvas presets.	将当前尺寸信息登记为预设尺寸。
+0x003049F8	Configure canvas presets.	编辑预设尺寸。
+0x00361A70	Specify the behavior when clicking or dragging on text.\nON... Select the topmost text at the mouse cursor position.\nOFF... Always select text on the current layer.	设置文本「单击/拖动」的行为。\nON... 选择鼠标光标位置最上层的文本。\nOFF... 始终选择当前图层的文本。
+0x00361BC0	Specify to move caret into the ruby text with the arrow keys without modifier keys.	设置不带修饰键时是否用方向键将插入符移向注音。
+0x00361C70	Specify to always reserve line gaps for ruby height.	否始终为注音预留行间空隙（所有行）。
+0x00361CE0	Select italic style.	选择斜体。
+0x00361D10	Specify subscript.	设置下标。
+0x00361D38	Specify superscript.	设置上标。
+0x00361D68	Specify oblique.	设置斜体。
+0x00361D90	Specify bold.	设置加粗。
+0x00361DB0	Align the vertical text to the borrom.	以竖排文本行的下端为基准点对齐。
+0x00361E00	Align the vertical text to the vertical center.	以竖排行中间为基准点对齐。
+0x00361E60	Align the vertical text to the top.	以竖排行上端为基准点对齐。
+0x00361EB0	Align the horizontal text to the right.	以横排行的右端为基准点对齐。
+0x00361F00	Align the horizontal text to the horizontal center.	以横排行中央为基准点对齐。
+0x00361F70	Align the horizontal text to the left.	以横排行左端为基准点对齐。
+0x00361FC0	Specify the differential of ARGB value that treat as similar color to the clicked point.	单击位置像素颜色相近的容差范围（ARGB 值差异）。
+0x00362080	Search a non zero opacity region around the clicked point.	检测单击位置周围非完全透明的部分作为区域。
+0x00304320	Search all regions in similar color to the clicked point.	检测与单击位置颜色相近的全部（不连续）像素作为区域。
+0x00362180	Search a similar color region around the clicked point.	检测单击位置周围颜（连续）色相近的部分作为区域。
+0x003621F0	Search a transparent region around the clicked point. Detect borders little fuzzily.	单击位置周围描线包围且透明的部分作为区域，描线判定稍微模糊。
+0x003622A0	Search a transparent region around the clicked point.	单击位置周围描线包围且透明的部分作为区域。
+0x00362310	Specify passing through selections for region detection.	检测区域无视选区覆盖。
+0x00362390	Specify ignoring current color parts on the current layer in region detection when [Selection Source] is [Specified Layer].	以[设置图层]为检测源，排除当前图层用前景色填充过的部分。
+0x00362490	Specify ignoring existing selections in region detection.	已选部分排除在区域检测对象之外。
+0x00304618	Enable anti-aliasing of edges.	对区域轮廓应用抗锯齿。
+0x00362550	Specify the dilation width after selecting region.	选区的膨胀/收缩宽度参数。
+0x00304A30	Search region from the merged image.	所有图层图像中检测区域。
+0x00304930	Search region from the layer that specified as [Selection Source].	从[区域检测源]设置的图层中抽出区域。
+0x003048C0	Search region from the current layer.	从当前图层中抽出区域。
+0x00304560	Specify the maximum width of the gap between pixels for an opened region.	未闭合区域缝隙的最大容差值，用于防止选区从缺口漏出。
+0x00362790	Specify the reference color. The reference color can be picked up from a canvas with Shift+Ctrl+Alt+LeftClick.	设置基准色。按 Shift+Ctrl+Alt+左键也可从画布拾取基准色。
+0x00362870	Specify the differential of ARGB value that treat as similar color to the reference color.	设置与基准色视为近似色的 ARGB 值差异范围。
+0x00362930	Specify reducing small detecting omissions that occur at the tip of tapered regions etc..\nPlease note that this setting may not work well with rough line art.	减少纤细区域尖端等处发生的小检测遗漏。\n在粗糙线稿可能无法正常工作。
+0x00304400	Specify the opacity range that treat translucent pixels as transparent.	检测时，不透明度低于此容差的像素视为透明。
+0x00362B00	Search enclosed regions with similar color to the reference color in the lassoed region.	将套索范围内与基准色相近的部分检测为区域。
+0x00362BC0	Search enclosed non zero opacity regions in the lassoed region.	套索范围内不完全透明（透明度不为0）的部分作为区域。
+0x00362C40	Search enclosed transparent regions in the lassoed region. Detect borders little fuzzily.	套索范围内描线包围的透明部分检测为区域。描线判定稍微模糊。
+0x00362D00	Search enclosed transparent regions in the lassoed region.	套索范围内描线包围的透明部分检测为区域。
+0x00362D80	Retains the intersection of the existing selection regions and the selected region.	保留设置区域与选区的公共部分。
+0x00362E30	Delete the selected region from current selection regions.	从选区中删除设置区域。
+0x00362EB0	Append the selected region to current selection regions.	将设置区域添加到选区。
+0x00362F30	Deselect and append a new selection region.	取消选区后将设置区域作为新选区。
+0x00304180	Specify applying the pen pressure to the dilution when the dilution is not 0.	笔压越轻画笔的水分量越多（水分量为0不生效）。
+0x003040F0	Specify applying the pen pressure to the blending.	笔压越轻混色是否越强。
+0x00304080	Specify applying the pen pressure to the brush density.	笔压越轻画笔浓度是否越薄。
+0x00304010	Specify applying the pen pressure to the brush size.	笔压越轻画笔尺寸是否越小。
+0x00363180	Reserve the current settings of the brush tool.	保存当前画笔设置。
+0x003631E0	Recall the reserved settings of the brush tool.\nYou can undo the recall of settings if pushed the button again while the button icon is red.	恢复保存的画笔工具设置。\n按钮图标变红期间再次点击可取消。
+0x00363300	Show/Hide [Pressure Sensitivity Curve] panel.	开启/关闭 [笔压感应曲线] 面板。
+0x00303FB0	Change the pressure sensitivity for blurring.	设置模糊宽度的笔压感应度。
+0x00303F30	Change the pressure sensitivity for blending.	设置画笔浓度的笔压感应度
+0x00303E80	Change the pressure sensitivity for brush density.	设置画笔浓度的笔压感应度。
+0x00303E00	Change the pressure sensitivity for brush size.	设置画笔尺寸的笔压感应度。
+0x00303D40	Suppress ripple like artifacts on the brush stroke of a flattest large brush.	是否减少大直径扁平画笔笔迹上的波纹纹理。
+0x00303C80	Disable the assist for density control by the pen pressure.	是否禁用笔压调浓度的辅助修正
+0x00303C20	Change the amplification for the brush density.	设置画笔浓度放大倍数。
+0x00303B80	Change the shapness for the hardest edge and thin strokes.	设置极细画笔或扁平画笔的轮廓锐利度。
+0x00303B20	Open or close the settings of miscellaneous.	展开/收起其他详细设置。
+0x00303A80	Change the removal range of hooks at the both ends of a stroke.	消除笔画两端因起笔、收笔产生的钩状小尾巴或毛刺。
+0x00303A00	Specify the tolerance as distance on screen.	容差是否按屏幕像素距离而非实际尺寸计算。
+0x00303980	Change the tolerance for the curve fitting.	设置笔迹矢量化时的容许误差（像素单位）。
+0x003038C0	Select a curve type for the vectorizeation.	选择矢量化的曲线方式。
+0x00303840	Open or close the settings of vectorizeation.	展开/收起矢量化设置。
+0x003037A0	Change the pen pressure range for smudging without coloring.	设置不着色只涂抹（只产生拖拽效果）的笔压范围。
+0x003036A8	Change the intensity of color.	设置着色强度。
+0x003031C8	Enable coloring.	是否启用着色。
+0x00303710	Change the pen pressure range for bluring without the current color.	设置不着色只产生模糊效果的笔压范围。
+0x003035F0	Keep opacity of blended color when spread painting to transparent area from painted area.	向透明区域涂抹时，颜色不易变淡。
+0x00303530	Change the persistence of blended color.	设置混色的延伸程度。值越大，混合色拖得越远、残留越明显。
+0x00303460	Change the dilution of blended color. If the dilution is 0, do not blend pixel opacity.	设置混色颜料的稀释程度（水稀释颜料的效果）。水分量为0时，不混合像素不透明度。
+0x003033D0	Change the blending between the current color and destination colors.	控制画笔当前颜色与画布上已有颜色混合的强弱。\n值越大，混色越明显；值越小，越接近直接覆盖。
+0x00303320	OFF ... Apply color jitters to each stroke.\nON ... Apply color jitters to each shape.	OFF ... 颜色抖动按笔画分别应用。\nON ... 颜色抖动按每个形状分别应用。
+0x00303290	Change the jitter of brightness.	设置明度抖动程度。
+0x003031F0	Change the jitter of saturation.	设置饱和度抖动程度。
+0x00302A48	Change the jitter of hue.	设置色相偏差的程度。
+0x00303130	Change the jitter of foreground color to background color.	设置前景色到背景色的抖动程度。
+0x003030D0	Open or close the settings of scattering color.	展开/收起散布颜色设置。
+0x00363F90	OFF ...Paint shapes in listed order.\nON ... Paint shapes in random order.	OFF ... 按登记顺序绘制图像。\nON ... 按随机顺序绘制图像。
+0x00302FE0	OFF ... Draw a shape by fast algorithm in down scaling.\nON ... Draw a shape by high quality algorithm in down scaling.	OFF ... 缩小时以速度优先绘制。\nON ... 缩小时以品质优先绘制。
+0x00302EC0	OFF ... Draw a shape with a sub pixel coordinate.\nON ... Draw a shape with a coordinate aligned to integer boundaries.	OFF ... 图像按给定坐标直接绘制。\nON ... 图像中心对齐到像素边界绘制。
+0x00302D90	OFF ... Draw a shape in a scale calculated with [Brush Size] and [Scaling].\nON ... Draw a shape in a scale calculated with [Size].	OFF ... 按 [画笔尺寸] 和 [倍率] 绘制图像大小。\nON ... 按 [图像尺寸] 绘制图像大小。
+0x00302CE0	OFF ... Scatter shapes uniformly.\nON ... Scatter shapes with a gaussian distribution.	OFF ... 以均匀密度散布图像。\nON ... 距光标越远密度越低地散布图像。
+0x00302BF0	OFF ... Scatter shapes in only the cross direction from the stroke direction.\nON ... Scatter shapes to all directions.	OFF ... 只在与笔画方向垂直的方向散布图像。\nON ... 向全方向散布图像。
+0x00302B90	Change the jitter of shapes count.	设置一次散布图像数量的偏差。
+0x00302B00	Change the number of shapes that scatter at a time.	设置一次散布的图像数量。
+0x00302A80	Change the jitter of shape aspect ratio.	设置图像长宽比抖动程度。
+0x003029A0	Change the aspect ratio of shape.	设置图像长宽比。
+0x00302790	Select a value scale of the shape size slider.	设置图像尺寸滑块的倍率。
+0x00302458	Change the shape size.	设置图像尺寸。
+0x00301FC8	Change the flow of paint	设置颜料流量。
+0x00301F88	Select a shape for scattering.	选择散布图像。
+0x00302540	Open or close the settings of scattering.	展开/收起散布设置。
+0x00302360	Specify the intensity of scratch with the layer paper.	最小浓度影响图层纸张质感造成的飞白（枯笔效果）。开启后，不会低于最小浓度。
+0x003022D0	Change the effect of a layer paper	设置图层纸张质感对笔画的影响强度。
+0x00302200	Open or close the settings of layer paper.	展开/收起笔画纹理设置。
+0x003024B0	Specify inversion of the texture if the paint color is transparency.	用透明色绘制时是否反转纹理浓淡。
+0x00302170	Specify inversion of the texture if the paint color is transparency.	用透明色绘制时是否反转纹理浓淡。
+0x003023F0	Specify inversion of the texture.	是否反转纹理浓淡。
+0x003020B0	Specify inversion of the texture.	是否反转纹理浓淡。
+0x00302000	Specify the intensity of scratch with the texture.	设置纹理飞白强度。
+0x00301F00	Change the scale of the texture.	设置纹理倍率。
+0x00301E90	Change the intensity of the texture.	设置纹理对画笔的影响强度
+0x00301CF8	Select a brush texture.	选择应用于画笔的纹理。
+0x00301DF0	Open or close the settings of brush texture.	展开/收起画笔纹理设置。
+0x00364B40	OFF ... Prioritizes speed when downscaling shapes.\nON ... Prioritizes quality when downscaling shapes.	OFF ... 缩小时以速度优先绘制（速度快、质量低）。\nON ... 缩小时以品质优先绘制（质量高、速度慢）。
+0x003026F8	Change the spacing of shapes.	设置图像间距。
+0x00301C68	Change the spacing of shapes.	设置图像间距。
+0x00364C50	Specifies the appearance frequency for the image assigned to the current setting when multiple images are registered.	登记多个图像时 设置当前设置所分配图像的出现频率
+0x00302920	Change the scattering distance of shapes.	设置散布图像的范围。
+0x00301D50	Change the scattering distance of shapes.	设置散布图像的范围。
+0x00302820	Change the jitter of shape size.	设置图像尺寸的抖动程度。
+0x00301C20	Change the jitter of shape size.	设置图像尺寸的抖动程度。
+0x003026B8	Change the scaling of shape.	设置图像的倍率。
+0x00301B88	Change the scaling of shape.	设置图像的倍率。
+0x00302670	Change the jitter of shape angle.	设置图像角度的抖动程度。
+0x00301B40	Change the jitter of shape angle.	设置图像角度的抖动程度。
+0x00302138	Change the angle of shape.	设置图像角度。
+0x00301A48	Change the angle of shape.	设置图像角度。
+0x003025C0	Select a direction mode of shape.	选择图像角度控制方式。
+0x00301A80	Select a direction mode of shape.	选择图像角度控制方式。
+0x00364EF8	Select scatter parameters.	选择散布设置。
+0x00364F30	Change the density of shape.	设置图像基本浓度。
+0x003019B0	Specify splitting of hairs when a stroke turned back.	笔画折返时是否切断笔毛连接。
+0x00301910	Select a direction mode of bristle.	选择笔毛方向控制方式。
+0x00301880	Change the irregularity in hairs.	设置笔毛不规则程度。
+0x00301800	Change the hair size when the puressure is 0.	设置 0笔压时笔毛粗细（最小值）。
+0x003017B0	Change the hair size.	设置笔压画笔尺寸（基础值）。
+0x00301750	Specify sharpening for blots.	渗色绘制清晰度是否锐利。
+0x003016B0	Specify inversion of blots if the paint color is transparency.	用透明色绘制时是否翻转渗色浓淡
+0x00301658	Specify inversion of blots.	是否翻转渗色浓淡。
+0x00301488	Change the scale of blots.	设置渗色倍率。
+0x003015D8	Change the messiness of blots.	调整渗色强度。
+0x00301458	Select a form of brush.	选择画笔形状。
+0x00301540	Open or close the settings of brush form.	展开/收起画笔形状设置。
+0x003014C0	Detect intersections from all linework layers.	从所有钢笔图层检测交点。
+0x003013F0	Detect intersections from sibling linework layers.	从与图层相同文件夹的所有钢笔图层检测交点。
+0x00301300	Detect intersections from the current layer and the selected linework layers.	从选中的钢笔图层中（可多选）检测交点。
+0x00301250	Detect intersections from the layers specified by [Erase Target].	从与 [擦除目标] 相同的图层检测交点。
+0x003011F0	Erase all linework layers	擦除所有钢笔图层。
+0x00301188	Erase sibling linework layers.	擦除与当前图层相同文件夹的所有钢笔图层。
+0x00301110	Erase the current layer and the selected linework layers.	擦除当前选择的钢笔图层（可多选）。
+0x00300ED8	Erase touched strokes.	画笔碰到的整条笔画全部擦除。
+0x003010A0	Erase to intersections from touched part of strokes.	擦除从画笔接触位置到交点之间的部分
+0x00301060	Erase touched parts of strokes.	仅擦除画笔接触的位置。
+0x00300FD0	Change the brush density when the puressure is 0.	设置 0笔压时的画笔浓度。
+0x003008A8	Change the brush density.	设置画笔浓度。
+0x00300F30	Change the brush size when the puressure is 0.	设置 0 笔压时的画笔大小。
+0x00300E88	Change the brush size.	设置画笔尺寸。
+0x00300E10	Select a value scale of the size slider.	设置画笔尺寸滑块的倍率。
+0x00300DA0	Select a hardness of the brush edge.	选择画笔轮廓的硬度（虚化程度）。
+0x00300AD8	Select a painting mode.	选择绘制模式。
+0x00300CD0	This is the preview of brush stroke. The background color is changed with a click.	画笔笔画的预览。单击可更改背景色。
+0x00365998	Select a tool group.	选择工具组。
+0x00300C28	Select a snap mode for grids.	选择网格吸附方式。
+0x00300B30	Switch detection for a red vanishing point. By right click, switch to detect only a red vanishing point.	设置是否检测红色消失点。右键单击则仅检测红色消失点。
+0x003009E0	Switch detection for a blue vanishing point. By right click, switch to detect only a blue vanishing point.	设置是否检测蓝色消失点。右键单击则仅检测蓝色消失点。
+0x003008E0	Switch detection for a green vanishing point. By right click, switch to detect only a green vanishing point.	设置是否检测绿色消失点。右键单击则仅检测绿色消失点。
+0x003007B8	Disable symmetric rulers.	禁用对称尺。
+0x003007F0	Disable rulers, perspective rulers and perspective grids.	禁用尺子、透视尺和透视网格。
+0x00300760	Switch to the straight line drawing mode.	切换到直线绘制模式。
+0x003006C0	Change the level of the stroke stabilizer.	设置手抖补正强度。
+0x00300620	Reverse the horizontal display direction of the current view.	左右翻转视图显示。
+0x003005A0	Reset the diplay angle of the current view.	重置视图显示角度。
+0x00300540	Rotate the current view cloclwise.	顺时针旋转视图显示。
+0x003004C0	Rotate the current view counter cloclwise.	逆时针旋转视图显示。
+0x00300440	Select a display angle for the current view.	设置视图显示角度。
+0x003003C0	Reset the display potision for the current view.	重置视图显示。
+0x00300358	Zoom out the current view.	缩小视图显示。
+0x00300300	Zoom in the current view.	放大视图显示。
+0x00300280	Select a display scale for the current view.	设置视图显示倍率。
+0x00300230	Show/Hide the selection.	显示/隐藏选区。
+0x003001E0	Invert the selection.	反转选区。
+0x003661C8	Discard the selection.	取消选区。
+0x00300148	Redo the operation.	重做操作。
+0x00300108	Undo the operation.	撤销操作。
+0x003000C0	Switch to Transparency.	切换前景色和透明色。
+0x00300060	Exchange Foreground Color and Background Color.	交换前景色、背景色。
+0x002FFFD8	Change Background Color.	更改背景色。
+0x002FFF78	Change Foreground Color.	更改前景色。
+0x002FFF38	Show/Hide Cursor Information.	显示/隐藏光标位置信息。
+0x002FFE48	Show/Hide Scratch Pad.	显示/隐藏便签簿。
+0x003663C0	Show/Hide Swatches.	显示/隐藏用户调色板。
+0x002FFD98	Show/Hide Color Mixer.	显示/隐藏中间色条。
+0x002FFB28	Show/Hide HSV/HSL sliders.	显示/隐藏 HSV/HSL 滑块。
+0x002FFCA8	Show/Hide RGB sliders.	显示/隐藏 RGB 滑块。
+0x002FFAF8	Show/Hide Color Circle.	显示/隐藏色轮。
+0x002FFEA0	Protect the selected layers from modifying.	禁止图层编辑（所有编辑）。
+0x002FFDF0	Protect the selected layers from moving.	禁止所选图层移动。
+0x002FFD20	Protect the selected layers from painting.	禁止在所选图层上绘制。
+0x002FFC30	Protect the opacity of each pixel of the selected layers.	锁定所选图层像素的不透明度。
+0x002FFB60	Apply the layer mask to the current layer.	将图层蒙版应用到当前图层。
+0x002FFAA0	Create a layer mask for the current layer.	为当前图层创建图层蒙版。
+0x002FF5A8	Delete the selected layers.	删除所选图层。
+0x002FF4D8	Erase the selected layers.	清除所选图层。
+0x002FF368	Merge the selected layers.	合并所选图层。
+0x002FF9C0	Transfer the painting of the current layer into the next layer.	将当前图层的内容转移到下一图层。
+0x002FF970	Open the menu for perspective rulers.	打开透视尺的新建菜单。
+0x002FF1D8	Create a new layer folder.	创建新图层组。
+0x002FF8E8	Create a new linework layer.	创建新钢笔图层。
+0x002FF0B8	Create a new normal layer.	创建新普通图层。
+0x002FF800	Specify the current layer as selection source for magic wand tool and bucket tool.	当前图层是否作为魔棒和油漆桶工具的选区样本。
+0x002FF700	Specify the current layer to displayed as clipped with pixels of the next layer.	当前图层是否按下一图层的不透明度进行剪贴显示。
+0x002FF660	Change the opacity for the current layer.	设置当前图层的不透明度。
+0x002FF5E0	Select a blend mode for the current layer.	设置当前图层的混合模式。
+0x002FF510	Apply the layer paper texture to ink strokes in the current linework layer.	图层纸张质感是否用作钢笔描线的纹理。
+0x002FF430	Change the scale of texture for the current layer.	设置当前图层的纸张质感缩放比例。
+0x002FF3A0	Change the intensity of texture for the current layer.	设置当前图层的纸张质感强度。
+0x002FF2A0	Select a layer paper texture for the current layer.	设置当前图层的纸张质感。
+0x002FF210	Change the intensity of fringes for the current layer.	设置当前图层的水彩边界强度。
+0x002FF150	Change the width of fringes for the current layer.	设置当前图层的水彩边界宽度。
+0x002FF0F0	Select a layer effect for the current layer.	设置当前图层的特殊效果。
+0x002FF020	Open or close settings of the layer effect.	展开/收起图层特殊效果设置
+0x002FEF28	System ID :	系统 ID :
+0x002FEE10	This is the ID to enter to 'System ID' box in the user license certifiate download form. This ID will be different between each computer.	这是输入到用户授权证书下载页面“系统 ID”栏中的 ID。每台电脑的 ID 都不同。
+0x002FEDB8	System ID	系统 ID
+0x002FED60	Do you reset all shortcut key assignments?	是否要将所有快捷键分配恢复为初始设置？
+0x002FED00	* The assignment can be removed by re-clicking.	* 再次点击可取消分配。
+0x002FEC40	Close unassigned sections when selecting a key	选择按键时关闭未分配的层级
+0x002FEB48	Shortcut Key Assignments	快捷键分配
+0x002FEA58	Blue :	蓝 :
+0x002FEA38	Green :	绿 :
+0x002FEA18	Red :	红 :
+0x003671A8	Opacity :	不透明度 :
+0x002FE9B8	Canvas Background Color	画布背景色
+0x003671F0	Reference Color	基准色
+0x002FE968	Background Color	背景色
+0x002FE918	Foreground Color	前景色
+0x00367260	Number of Y Division :	纵向分割数 :
+0x00367290	(1 to 20)	(1～20)
+0x003672A8	Number of X Division :	横向分割数 :
+0x003672E0	Number of Divisions for Lattice/Mesh Transform	格子变形/网格变形的分割数
+0x002FE870	Create Link	创建链接
+0x002FE830	Existing Tools	现有工具
+0x002FE7F8	Basic Tools	基本工具
+0x002FE7B0	Curve Interpolation	曲线插值
+0x002FE758	Stabilizer level :	手抖补正强度 :
+0x002FE638	Stabilizer Mode :	手抖补正方式 :
+0x002FE660	(This name is displayed under the tool name)	(显示在工具名下方)
+0x002FE5E8	Additional Name :	其他 :
+0x002FE588	(Less than about 8 characters)	(最多约 8 个半角字符，4 个全角字符)
+0x002FE548	Tool Name :	工具名 :
+0x002FE6E0	Shortcut Key :	快捷键 :
+0x002FE4C8	Shortcut Key :	快捷键 :
+0x002FE508	Shortcut Key :	快捷键 :
+0x002FE468	(Less than about 6 characters)	(最多约 6 个半角字符，3 个全角字符)
+0x002FE3F8	New Tool Group	新建工具组
+0x002FE380	Do you delete the following brush texture?	是否删除下列画笔纹理？
+0x002FE320	Do you delete the following scattering shape?	是否删除下列散布图像？
+0x002FE2D0	Do you delete the following brush form?	是否删除下列画笔形状？
+0x002FE210	Do you delete the following layer paper?	是否删除下列图层纸张质感？
+0x002FE160	Do you delete the following scratch pad?	是否删除下列便签簿？
+0x002FE0D0	Do you delete the following set of swatches?	是否删除下列用户调色板？
+0x003677A0	Do you overwrite the current asset?	是否覆盖当前素材？
+0x003677F0	The asset of specified name is already existing. Do you overwrite this asset?	已存在同名素材。是否覆盖？
+0x00367890	Cannot create a bristle because there is any hair point.	不存在毛点，无法创建鬃毛。
+0x00367908	Create & Select	创建并选择
+0x00367928	Prefix Match :	前缀匹配 :
+0x00367948	Add as Multiple Shapes	作为多个形状添加
+0x00367978	Replace	替换
+0x00367988	Creation :	创建方法 :
+0x002FE050	Layer Image(ARGB)	图层图像(ARGB)
+0x003679D0	Layer Image(Alpha channel only)	图层图像(仅Alpha通道)
+0x00367A10	White as Transparent, Black as Opaque	白色为透明，黑色为不透明
+0x00367A60	Black as Transparent, White as Opaque	黑色为透明，白色为不透明
+0x00367AB0	Interpretation :	图像提取 :
+0x00367AD8	Bristle (Must be 63x63px)	鬃毛 (必须 63x63px)
+0x002FDE20	Form :	种类 :
+0x00367B20	Create New	新建
+0x002FDBF0	Do you delete the selected items?	是否删除所选项目？
+0x002FDB10	Do you delete the selected groups?\nThe included items are moved into [ Unorganized ] group.	是否删除所选分组？\n组内项目将被移动到【未整理】分组。
+0x002FDAD8	Done	完成
+0x00367C58	For Scatter Parameters 3	用于散布设置 3
+0x00367C90	For Scatter Parameters 2	用于散布设置 2
+0x00367CC8	For Scatter Parameters 1	用于散布设置 1
+0x002FDA98	Asset Manager	素材・工具管理
+0x002FDA60	Color History	色彩历史
+0x002FDA20	Custom Tools for Shape Layer	自定义工具 - 形状图层
+0x002FD9C0	Custom Tools for Linework Layer	自定义工具 - 钢笔图层
+0x002FD938	Custom Tools for Normal Layer	自定义工具 - 普通图层
+0x002FD8F8	Brush Textures	画笔纹理
+0x002FD8A8	Scattering Shapes	散布图像
+0x002FD870	Brush Forms	画笔形状
+0x002FD818	Layer Paper Textures	图层纸张质感
+0x002FD7D0	Scratch Pads	便签簿
+0x002FD718	Rename Color	重命名颜色
+0x002FD6C8	Rename Group	重命名分组
+0x002FD630	Gaussian Blur	高斯模糊
+0x002FD518	Radius :	半径 :
+0x002FD4E8	Depth :	颜色浓度 :
+0x002FD4B0	Contrast :	对比度 :
+0x002FD470	Brightness :	亮度 :
+0x002FD428	Brightness/Contrast	亮度/对比度
+0x002FD3F0	Colorize	统一色彩
+0x002FEB10	Luminance :	明度 :
+0x002FD3B0	Luminance :	明度 :
+0x002FEAE0	Luminance :	明度 :
+0x002FEAA8	Saturation :	饱和度 :
+0x002FD370	Saturation :	饱和度 :
+0x002FD340	Hue :	色相 :
+0x002FEA80	Hue :	色相 :
+0x002FD300	Hue/Saturation	色相/饱和度
+0x002FD1E0	Update Preview while Changing Slider	滑块操作及时更新预览
+0x002FD158	Apply to Canvas Edges too	也应用到画布边缘
+0x002FD120	Outside	外侧
+0x002FD0E8	Center	居中
+0x002FD0B0	Inside	内侧
+0x002FD070	Position :	位置 :
+0x002FCFF8	Erode Selection	收缩选区
+0x002FCFB0	Dilate Selection	扩展选区
+0x002FCF80	Outline	描边
+0x002FCF08	Line Symmetry :	线对称 :
+0x002FCEB8	(Maximum 20)	(最大 20)
+0x002FCE78	Division :	分割数 :
+0x002FCDE0	Division for R-Axis :	红轴分割数 :
+0x002FCD50	Division for B-Axis :	蓝轴分割数 :
+0x002FCE30	(Maximum 100)	(最大 100)
+0x002FCD10	(Maximum 100)	(最大 100)
+0x002FCDA0	(Maximum 100)	(最大 100)
+0x002FCCC0	Division for G-Axis :	绿轴分割数 :
+0x00368330	Bold Lines	粗线
+0x00368350	V-Intervals of Extra Bold Lines :	极粗线的垂直间隔 :
+0x003683A0	H-Intervals of Extra Bold Lines :	极粗线的水平间隔 :
+0x003683E8	Grid Lines	分割线
+0x00368400	Every	本置
+0x00368410	V-Intervals of Bold Lines :	粗线的垂直间隔 :
+0x00368448	H-Intervals of Bold Lines :	粗线的水平间隔 :
+0x00368480	V-Intervals of Grid Lines:	分割线的垂直间隔 :
+0x003684B8	H-Intervals of Grid Lines:	分割线的水平间隔 :
+0x003684F0	Bottom Margin :	下边距 :
+0x00368510	Right Margin :	右边距 :
+0x00368530	Left Margin :	左边距 :
+0x00368550	Top Margin :	上边距 :
+0x002FCC80	Layer Name :	图层名 :
+0x002FCC40	Layer Property	图层属性
+0x002FCBB0	Do you delete the recovery data of the selected works?	是否删除所选的恢复数据？
+0x002FCB50	Delete Recovery Data of Work	确认删除恢复数据
+0x002FCB20	Work	工程
+0x002FCAB8	Recovery\nPoint	恢复点
+0x002FCA88	Operations	操作
+0x002FCA58	Protected	保护
+0x002FCA18	Partly Protected	部分保护
+0x002FC9E8	Deleted	删除对象
+0x002FC9B8	Crashed	强制退出
+0x002FC988	Opened	绘画中
+0x002FC950	Unlinked	保存位置无效
+0x002FC918	Saved	已保存
+0x002FCAF0	Saved	已保存
+0x002FC8E8	Unsaved	未保存
+0x002FC8A8	Target Filename	目标文件名
+0x002FC858	Last Modified Time	最后修改时间
+0x002FC810	Created Time	创建时间
+0x002FC7D8	Recover	恢复
+0x002FC6F0	* If cannot recover a work from a recovery point, please try recovery from some other recovery point.	* 如果无法从某个恢复点恢复文件，请尝试从其他恢复点恢复。
+0x002FC660	Recover Latest State with Redo Operation Automatically	自动执行重做，恢复到最后状态
+0x002FC5E8	Recover Work	恢复文件
+0x002FC550	Aborted Works are detected. Do you open Recovery Work dialog?	检测到强制退出的工程。是否打开恢复文件对话框？
+0x002FC510	Aborted Works	强制退出的工程
+0x003689D0	Changing the color mode to Grayscale will remove all colors.\nDo you want to proceed?	将色彩模式改为灰度会删除所有颜色。\n是否继续？
+0x00368A80	Change to Grayscale	灰度模式变更的确认
+0x00368AB0	has already opened. Do you discard the current painting and reopen the file?	已被打开。是否放弃当前编辑内容并重新打开文件？
+0x002FC238	Reopen_Text	Reopen_Text
+0x002DFE50	Reopen_Text	Reopen_Text
+0x002FC420	Re-Open Canvas	重新打开画布的确认
+0x002FC400	Reopen_Title	Reopen_Title
+0x002DFE10	Reopen_Title	Reopen_Title
+0x002FC3B0	Do you discard the current painting?	是否放弃当前画布？
+0x002FC390	Discard Canvas	放弃画布的确认
+0x002FC2A0	To save all data, please select the file type of SAI2(*.sai2).\nDo you save this canvas as an other file before close?	如需保存全部信息，请选择 SAI2(*.sai2) 格式。\n是否在关闭画布前另存为其他文件？
+0x002FC250	Do you save this canvas before close?	是否在关闭画布前保存？
+0x002FC1C0	has unsaved data about SAI specific data.	尚未保存 SAI 专有信息。
+0x002FC100	has unsaved data about layer structure.	尚未保存图层结构。
+0x002FC060	has unsaved data about layer visiblities.	可见状态已被更改。
+0x002FBFC0	is not saved. And this file type has some unsupported data.	尚未保存。另外有当前文件格式无法保存的信息。
+0x002FBF78	is not saved.	尚未保存。
+0x002FBF38	Save Canvas	保存画布的确认
+0x002FBED0	Do you delete this bookmark folder?	是否删除此收藏夹文件夹？
+0x002FBE68	Do you delete this bookmark?	是否删除此收藏夹？
+0x002FBE10	Delete Bookmark Folder	删除收藏夹文件夹
+0x002FBDC0	Delete Bookmark	删除收藏夹
+0x002FBD78	Extension :	扩展名 :
+0x002FBD40	Name :	名称 :
+0x002FD758	Name :	名称 :
+0x002FE098	Name :	名称 :
+0x002FE438	Name :	名称 :
+0x002FB670	Filename :	文件名 :
+0x002FBD08	Filename :	文件名 :
+0x002FBCC8	Target :	对象 :
+0x002FBC90	Parent :	上一级 :
+0x002FBC50	Add Bookmark	添加到收藏夹
+0x002FB960	Add Bookmark	添加到收藏夹
+0x002FBBF0	Rename Bookmark Folder	重命名收藏夹文件夹
+0x002FBBA0	Rename Bookmark	重命名收藏夹
+0x002FBB50	Rename Folder	重命名文件夹
+0x002FBB08	Rename File	重命名文件
+0x002FBAA8	Create New Bookmark Folder	新建收藏夹文件夹
+0x00369168	Move Here	移动到这里
+0x00369180	Copy Here	复制到这里
+0x002FB9F0	Update All Thumbnails	更新所有缩略图
+0x002FB9A0	Update Thumbnail	更新缩略图
+0x003691F0	Add To Bookmark	添加到收藏夹
+0x002FB928	Rename	重命名
+0x002FBA50	Create New Folder	新建文件夹
+0x002FB8B0	Create New Folder	新建文件夹
+0x002FB868	Filetype and Time	扩展名和修改时间
+0x002FB828	Time	修改时间
+0x002FB7F0	Filetype	扩展名
+0x002FB7B0	Name	文件名
+0x002FB778	Details	详细
+0x00327080	Details	详细
+0x002FB738	Thumbnails	缩略图
+0x003692D0	Open Folder	打开文件夹
+0x003692E8	File Type	保存格式
+0x00369300	Filename	文件名
+0x00369318	Type Filter	格式筛选
+0x00369330	Keywords	关键词
+0x002FB608	Sort	排序
+0x002FC630	Sort	排序
+0x002FB588	Bookmark Tree	收藏夹
+0x002FB540	Folder Tree	文件夹
+0x00369390	Path	路径
+0x002FB500	Bookmark	收藏夹
+0x003693B8	File System	文件系统
+0x003693D0	Desktop	桌面
+0x002FB488	Save As	另存画布
+0x002FB448	Save	保存画布
+0x002FB408	Open	打开画布
+0x00369410	Changing Saving Size ...	正在更改保存尺寸 ...
+0x00369448	Computing File Size ...	正在计算文件大小 ...
+0x00369478	Creating Preview Image ...	正在创建预览图像 ...
+0x002FB368	Compression Rate :	压缩率 :
+0x003698D8	999999.99KB	999999.99KB
+0x002FB2D8	File Size :	文件大小 :
+0x002FB180	Compression Result	压缩结果
+0x00369530	TGA File	TGA 文件
+0x00369548	PNG File	PNG 文件
+0x002F48E0	Vertical	垂直方向
+0x002FB140	Vertical	垂直方向
+0x002FB100	Horizontal	水平方向
+0x002FB0A8	Chroma Downsampling:	色度抽样 :
+0x002FB048	Compression Quality:	压缩品质 :
+0x003695F0	JPEG File	JPEG 文件
+0x00369608	BMP File	BMP 文件
+0x00369620	PSD/PSB File	PSD/PSB 文件
+0x00369640	SAI2 File	SAI2 文件
+0x00369658	Color Mode:	色彩模式 :
+0x00369670	16bpp Opacity+Gray (A8:G8)	16bpp 不透明度+灰度 (A8:G8)
+0x003696A8	8bpp Grayscale (G8)	8bpp 灰度 (G8)
+0x003696D0	32bpp Opacity+RGB (A8:R8:G8:B8)	32bpp 不透明度+RGB (A8:R8:G8:B8)
+0x00369710	Pixel Format:	像素格式 :
+0x00369730	Change Save Size	更改保存尺寸
+0x00369760	Save Size :	保存尺寸 :
+0x00369778	Canvas :	画布 :
+0x00369790	Save Size	保存尺寸
+0x002FAFC0	Original Image	原始图像
+0x002FADD8	Printing Metrics :	打印尺寸 :
+0x002FAC68	Printing Metrics :	打印尺寸 :
+0x002FAC28	Pixels :	像素数 :
+0x002FAD98	Pixels :	像素数 :
+0x002FABE8	New Size	新尺寸
+0x002FABA0	Current Size	当前尺寸
+0x002FAB68	Bottom	下
+0x002FAB30	Right	右
+0x00321238	Right	右
+0x002FAB00	Left	左
+0x00321220	Left	左
+0x002FAA28	Top	上
+0x002FAA30	Enter extend value for each side. A negative value cuts down a side.	设置上下左右的扩展量。负数向内缩减。
+0x002FA9D0	Extension for Each Side	以扩展量设置
+0x002FA990	Anchor :	基准位置 :
+0x002FA8D0	Width and Height	宽高
+0x002FA878	Change Canvas Size	更改画布尺寸
+0x002FA830	Resampling Method :	像素再计算方法 :
+0x002FA7C0	Fix Horizontal and Vertical Pixels	固定纵横像素数
+0x002FA6D8	Fix Width and Height Ratio	固定纵横比
+0x002FA710	Printing Resolution Unit for Display :	打印分辨率显示单位 :
+0x002FA680	Size Unit for Display :	宽高显示单位 :
+0x002FA550	Change Canvas Resolution	更改画布分辨率
+0x002FA328	Configure Canvas Presets	编辑预设尺寸
+0x002FA510	Background :	背景 :
+0x00369B60	Color Mode :	色彩模式 :
+0x002FA628	Printing Resolution :	打印分辨率 :
+0x002FA4B8	Printing Resolution :	打印分辨率 :
+0x002FA478	Height :	高度 :
+0x002FA5E0	Height :	高度 :
+0x002FA950	Height :	高度 :
+0x002FA448	Width :	宽度 :
+0x002FA5A8	Width :	宽度 :
+0x002FA918	Width :	宽度 :
+0x002FD038	Width :	宽度 :
+0x002FA410	Preset :	预设尺寸 :
+0x002FA3C8	Preset Name :	预设尺寸名 :
+0x002FA388	File Name :	文件名 :
+0x002FA2D8	Modify Canvas Preset	修改预设尺寸
+0x002FA280	Register New Canvas Preset	登记新的预设尺寸
+0x002FA248	New Canvas	新建画布
+0x002FA208	Custom Tool Item	自定义工具项目本体
+0x002FA1B8	Custom Tool Link	自定义工具链接
+0x002FA178	Asset Item	素材项目
+0x002FA100	Group Name, Order of Organized Items	组名、所属项目的顺序
+0x002FA0C0	Order of Groups	分组的顺序
+0x002FA020	Order of Groups, Order of [ Unorganized ] Group Items	分组的顺序、【未整理】分组的项目顺序
+0x002F9FA0	File Path	文件路径
+0x002F9DC8	Substance	内容
+0x002F9CC8	Category	分类
+0x002F9ED0	A settings file corrupted. Cannot load the backup file.	检测到设置文件损坏。无法读取备份文件。
+0x002F9DE0	A settings file corrupted. The settings have been lost because the backup file corrupted too.	检测到设置文件损坏。备份文件也损坏，设置已丢失。
+0x002F9CE0	A settings file corrupted. The settings have been lost because the backup file not exists.	检测到设置文件损坏。备份文件不存在，设置已丢失。
+0x002F9C10	A settings file corrupted. The settings recoverd from the backup file.	检测到设置文件损坏。已从备份文件恢复设置。
+0x002F9BA8	Cannot load a settings file.	设置文件读取失败。
+0x002F9B58	Settings Load Error	设置文件读取错误
+0x0036A130	Do you delete the following preset?	是否删除下列预设尺寸？
+0x002F95B0	Do you rserve the current tool settings?	是否保存当前工具的设置？
+0x002F9550	Do you initialize the current tool settings?	是否将当前工具的设置初始化？
+0x002F94D0	Do you delete the following tool?	是否删除下列工具？
+0x002F9420	Do you delete this following group and all included tools?	是否删除下列分组及组内全部工具？
+0x002F9380	Do you delete these selected tools?	是否删除选定的这些工具？
+0x002F9328	Operation confirmation	操作确认
+0x002F92E8	Default Path	默认位置
+0x002F9298	Original Path	更改前的位置
+0x002F9250	Failed Path	失败的位置
+0x002F91F0	Returned System Error	Windows 返回的错误
+0x002F9FD8	Error	错误
+0x0031C1E8	Error	错误
+0x0031C1F8	Error	错误
+0x0031CCC0	Error	错误
+0x0057AD52	Error	错误
+0x0036A420	Subject	对象
+0x002F91A8	Not Impl.	未实现
+0x002F9180	Grp.	组
+0x002F9150	Group	分组
+0x002F9100	New	新建
+0x0030C6D8	New	新建
+0x002F90D8	Std.	标准
+0x0036A480	4 Chars	4 个字符
+0x0036A490	3 Chars	3 个字符
+0x0036A4A0	2 Chars	2 个字符
+0x0036A4B0	1 Chars	1 个字符
+0x0036A4C0	Right/Bottom 	(1:0:0)	右/下对齐 	(1:0:0)
+0x0036A4F0	Left/Top 	(0:0:1)	左/上对齐 	(0:0:1)
+0x002FD0E8	Center 	(1:0:1)	居中 	(1:0:1)
+0x0036A538	Distribute 	(0:1:0)	均等分配 	(0:1:0)
+0x0036A560	Distribute 	(1:2:1)	均等分配 	(1:2:1)
+0x002DD4A8	Lanczos 3	(High Quality)	Lanczos 3	(高品质)
+0x002F8E40	Lanczos 3	(High Quality)	Lanczos 3	(高品质)
+0x002F9088	Lanczos 3	(High Quality)	Lanczos 3	(高品质)
+0x002DD468	Lanczos 2	(Good Quality)	Lanczos 2	(中品质)
+0x002F8E00	Lanczos 2	(Good Quality)	Lanczos 2	(中品质)
+0x002F9028	Lanczos 2	(Good Quality)	Lanczos 2	(中品质)
+0x002F8DC8	Bicubic	(Sharp)	双三次	(锐利)
+0x002F8D88	Bilinear	(Smooth)	双线性	(平滑)
+0x002F8E80	Nearest Neighbor	(Rough)	最邻近	(粗糙)
+0x002F8D88	Bilinear	(Draft)	双线性	(简易)
+0x002F8D38	Nearest Neighbor	(Draft)	最邻近	(简易)
+0x002F8DC8	Bicubic	双三次
+0x002F8FE0	Bicubic	(Sharp)	双三次	(锐利)
+0x002F8D88	Bilinear	双线性
+0x002F8EE0	Bilinear	(Smooth)	双线性	(平滑)
+0x002F8F90	Bilinear	(Smooth)	双线性	(平滑)
+0x002F8E80	Nearest Neighbor	最邻近
+0x0036A728	Manual Input	手动输入
+0x002F8CF8	Ver.1 Mode	Ver.1 方式
+0x002F8CC0	Normal Mode	通常方式
+0x0036A7B8	Outside of Fill	填充外侧
+0x0036A7D8	Inside of Fill	填充内侧
+0x0036A7F8	Solid	实线
+0x0036A808	Single Color	单色
+0x002F8C20	Besier	贝塞尔曲线
+0x002F8BA0	[ Layer Paper ]	【图层纸张质感】
+0x002F8B38	Random	随机
+0x002F8AF8	Pen Direction	笔尖方向
+0x002F8A50	[ Simple Circle ]	【通常的圆形】
+0x002F8950	Knot	交点
+0x002F8B60	[ No Texture ]	【无纹理】
+0x002F88B0	[ No Texture ]	【无纹理】
+0x0036A8E0	Cross	十字
+0x0036A8F0	Square	方形
+0x0036A900	Diamond	菱形
+0x0036A910	Sand Grain	沙粒
+0x0036A928	Round	圆形
+0x0036A938	Halftone	半色调
+0x002F8878	Binary Color	彩色二值化
+0x002F8838	Water Fringe	水彩边界
+0x002F87F8	[ No effect ]	【无效果】
+0x002F87C0	[ Unorganized ]	【未整理】
+0x002F8770	* Name Error *	* 名称错误 *
+0x002F8730	Unorg	未整理
+0x002F86F0	Broken	损坏
+0x002F86B0	All Files	所有文件
+0x002F85F8	Bitmap	位图
+0x002F84D0	Image Files	图像文件
+0x002F8358	Paper\nAcryl	丙烯画纸
+0x002F8310	Canvas\nAcryl	丙烯画布
+0x0036AA88	Change\nShape	更改形状
+0x002F7C80	Grada-\ntion	渐变
+0x002F7C10	Lasso\nFill	填充套索
+0x002F7B38	BinPen	二值笔
+0x002F8268	BinPen	二值笔
+0x002F7A40	Effect\nPen	效果笔
+0x002F7A08	PixArt\nPen	像素画/笔
+0x002F79D8	SelErs	选区擦
+0x002F7BD8	SelErs	选区擦
+0x002F82D8	SelErs	选区擦
+0x002F79A8	SelPen	选区笔
+0x002F7BA0	SelPen	选区笔
+0x002F82A0	SelPen	选区笔
+0x002F81B8	Water\nColor	水彩笔
+0x002F7910	Water\nColor	水彩笔
+0x002F8040	Water\nColor	水彩笔
+0x002F78A8	AirBrush	喷枪
+0x002F8150	AirBrush	喷枪
+0x002F7578	Crayon	蜡笔
+0x002F8398	Crayon	蜡笔
+0x002F7538	Paper + Acrylic	画用纸 + 丙烯
+0x002F74F0	Canvas + Acrylic	画布 + 丙烯
+0x002F72D0	Chalk	粉笔
+0x002F80E0	Chalk	粉笔
+0x002F72A0	Gouache	水粉
+0x002F80A8	Gouache	水粉
+0x002F7278	Oil	油画
+0x002F8078	Oil	油画
+0x0036ABE8	Change Shape	更改形状
+0x002F7180	Freehand	手绘
+0x002F7F58	Freehand	手绘
+0x0036AC20	Bevel	倒角
+0x0036AC30	Change Path	更改路径
+0x002F70F0	Prssure	笔压
+0x002F7EB0	Prssure	笔压
+0x002F70B8	Binary Weight	二值线更改
+0x002F7080	Binary Line	二值折线
+0x002F7040	Binary Curve	二值曲线
+0x002F6F98	Weight	线更改
+0x002F7658	Weight	线更改
+0x002F7D70	Weight	线更改
+0x002F7E80	Weight	线更改
+0x002F84A0	Weight	线更改
+0x002F6F70	Line	折线
+0x002F7628	Line	折线
+0x002F7D40	Line	折线
+0x002F7E48	Line	折线
+0x002F8468	Line	折线
+0x002F8920	Line	折线
+0x002F6F40	Curve	曲线
+0x002F7120	Curve	曲线
+0x002F75F8	Curve	曲线
+0x002F7D10	Curve	曲线
+0x002F7E10	Curve	曲线
+0x002F7EE8	Curve	曲线
+0x002F8430	Curve	曲线
+0x002F6EF0	Pen	钢笔
+0x002F75D0	Pen	钢笔
+0x002F7CB8	Pen	钢笔
+0x002F7DA8	Pen	钢笔
+0x002F8400	Pen	钢笔
+0x00321B20	Pen	钢笔
+0x002F6EC0	Gradation	渐变
+0x002F6E90	Bucket	油漆桶
+0x002F7C48	Bucket	油漆桶
+0x002F6E60	Lasso Fill	套索填充
+0x002F6E10	Binary Selection Eraser	二值选区擦
+0x002F6DC0	Binary Selection Pen	二值选区笔
+0x002F7000	Binary Eraser	二值橡皮擦
+0x002F6D80	Binary Eraser	二值橡皮擦
+0x002F6D50	Binary Pen	二值笔
+0x002F6FC8	Binary Pen	二值笔
+0x002F7430	Binary Pen	二值笔
+0x002F6D28	Liquify	扭曲
+0x002F7B08	Liquify	扭曲
+0x002F6CF8	Smudge	涂抹
+0x002F7AD8	Smudge	涂抹
+0x002F6C70	Effect Pen	效果笔
+0x002F6C38	Pixel Art Pen	像素画笔
+0x002F74A8	Selection Eraser	选区擦
+0x002F6BF8	Selection Eraser	选区擦
+0x002F7468	Selection Pen	选区笔
+0x002F6BC0	Selection Pen	选区笔
+0x002F6B98	Eraser	橡皮擦
+0x002F6F10	Eraser	橡皮擦
+0x002F7400	Eraser	橡皮擦
+0x002F7978	Eraser	橡皮擦
+0x002F7B68	Eraser	橡皮擦
+0x002F7CE0	Eraser	橡皮擦
+0x002F7DD8	Eraser	橡皮擦
+0x002F8230	Eraser	橡皮擦
+0x002F6B70	Marker	马克笔
+0x002F73D0	Marker	马克笔
+0x002F7948	Marker	马克笔
+0x002F81F8	Marker	马克笔
+0x002F7398	Water Color	水彩笔
+0x002F6B40	Water Color	水彩笔
+0x002F7248	Water Color	水彩笔
+0x002F6B18	Brush	画笔
+0x002F7368	Brush	画笔
+0x002F78E0	Brush	画笔
+0x002F8188	Brush	画笔
+0x002F6AE8	Air Brush	喷枪
+0x002F7330	Air Brush	喷枪
+0x002F6AB8	Pencil	铅笔
+0x002F7218	Pencil	铅笔
+0x002F7300	Pencil	铅笔
+0x002F7870	Pencil	铅笔
+0x002F8008	Pencil	铅笔
+0x002F8118	Pencil	铅笔
+0x002F6A60	Hand	抓手
+0x002F7810	Hand	抓手
+0x002F6A10	Zoom	视图放大
+0x002F77B0	Zoom	视图放大
+0x002F6960	Lasso	套索
+0x002F76E8	Lasso	套索
+0x002F6938	Wand	自动选择
+0x002F76B8	Wand	自动选择
+0x002F6910	Marquee	选框
+0x002F7688	Marquee	选框
+0x002F68C8	Shape Layer Tools	形状图层工具
+0x002F6870	Linework Layer Tools	钢笔图层工具
+0x002F6820	Normal Layer Tools	普通图层工具
+0x002F67D8	Common Tools	通用工具
+0x002F6738	Water Blur	水彩渗色
+0x002F66F8	Flat Face	平面
+0x002F66B0	Flat Bristle	平笔
+0x002F6638	Blots&Noise	渗色 & 噪点
+0x002F6600	Blots	渗色
+0x002F65C8	Import	继承
+0x002F6518	Artistic	画具风
+0x002F64E0	Binary	二值
+0x002F64B0	Basic	基本
+0x002F6470	Line Symmetry	线对称
+0x002F6428	Divisions	分割
+0x002F63E0	Vanishing Points	点透视
+0x002F63B0	Eff	效果
+0x002F6380	Pap	质感
+0x002F1280	Lock	保护
+0x002F6310	Alpha Channel	Alpha 通道
+0x002F62D8	Opacities	不透明部分
+0x0036B148	Paper Grid	用纸网格
+0x002F6298	Symmetric Ruler	对称尺
+0x002F6258	Perspective Grid	透视网格
+0x002F6218	Perspective Ruler	透视尺
+0x002F61F0	Text	文本
+0x002F69C0	Text	文本
+0x002F7750	Text	文本
+0x002F6000	Shape	形状
+0x002F61C8	Shape	形状
+0x002F6990	Shape	形状
+0x002F7720	Shape	形状
+0x002F6190	Linework	钢笔
+0x0036B208	Pattern	图案
+0x002F6160	Folder	文件夹
+0x002F6128	Layer Mask	图层蒙版
+0x0036B240	SelRgn	选区
+0x002F6098	Background	背景
+0x002F6060	Texture	纹理
+0x002F6030	Scatter	散布
+0x002F6CA8	Scatter	散布
+0x002F7A78	Scatter	散布
+0x002F5FD0	Bristle	鬃毛
+0x002F6678	Bristle	鬃毛
+0x002FDED0	Bristle	鬃毛
+0x002F5FA0	Blotmap	渗色
+0x002FDE58	Blotmap	渗色
+0x002F5F30	ScratchPad	便签簿
+0x0036B2C0	Swatches	用户调色板
+0x002F5EC0	NewCanvas	新画布
+0x002F5E88	Luminosity	亮度
+0x002F5E10	Saturation	饱和度
+0x002F5DD8	Hue	色相
+0x002F5DA8	Divide	除法
+0x002F5D70	Subtract	减去
+0x002F5D40	Exclude	排除
+0x002F5CF8	Lighten Color	颜色比较(明)
+0x002F5CA8	Darken Color	颜色比较(暗)
+0x002F5C68	Lighten	比较(明)
+0x002F5C30	Darken	比较(暗)
+0x002F5BF0	Pin Light	点光
+0x002F5BB0	Hard Light	强光
+0x002F5B70	Soft Light	柔光
+0x002F5B28	[TS] Difference	[TS] 差的绝对值
+0x002F5AD8	[TS] Hard Mix	[TS] 实色混合
+0x002F5A88	[TS] Vivid Light	[TS] 亮光
+0x002F5A30	[TS] Color Dodge	[TS] 颜色减淡
+0x002F59E0	[TS] Color Burn	[TS] 颜色加深
+0x002F5988	[TS] Linear Light	[TS] 线性光
+0x002F5930	[TS] Linear Dodge	[TS] 线性减淡
+0x002F58D8	[TS] Linear Burn	[TS] 线性加深
+0x002F5890	Vivid Light	亮光
+0x002F5848	Color Dodge	颜色减淡
+0x002F5800	Color Burn	颜色加深
+0x002F57B8	Linear Light	线性光
+0x002F5768	Linear Dodge	线性减淡
+0x002F5720	Linear Burn	线性加深
+0x002F56E0	Difference	差的绝对值
+0x002F5690	Hard Mix	实色混合
+0x002F5648	Burn/Dodge	加深/减淡
+0x002F5610	Dodge	减淡
+0x002F55E0	Burn	加深
+0x002F55A8	Shade/Shine	明暗
+0x002F5568	Shine	发光
+0x002F5538	Shade	阴影
+0x002F5500	Overlay	叠加
+0x002F54C8	Screen	滤色
+0x002F5418	Pass	穿透
+0x002F53D0	Transforming ...	正在执行图像变换 ...
+0x002F5360	Writing History Data to File ...	正在将历史记录数据写入文件 ...
+0x002F52F0	Loading History Data from File ...	正在从文件读取历史记录数据 ...
+0x0036B768	Applying Auto Redo ...	正在应用自动重做 ...
+0x002F52A8	Recovering Work ...	正在恢复工程 ...
+0x002F5260	Saving Canvas ...	正在保存画布 ...
+0x002F5218	Loading Canvas ...	正在读取画布 ...
+0x0036B810	Pressure Sensitivity Curve	笔压感应曲线
+0x0036B848	Brush Size List	画笔尺寸列表
+0x002F5188	Pick Color in Dragging	拖动中也拾色
+0x0036B898	Target for Dropper:	吸管目标 :
+0x002F4FE8	Drag Vertical not Horizontal	上下拖动代替左右拖动
+0x002F4F80	Zoom at Mouse Cursor Position	以拖动开始位置为中心缩放
+0x002F4F28	Scrubby Zoom Options:	左右拖动缩放操作 :
+0x002F4ED8	Enable when Zoom Out mode	缩小模式时启用
+0x002F4E78	Enable when Zoom In mode	放大模式时启用
+0x002F4E18	Rectangular Zoom Options:	矩形范围放大操作 :
+0x002F4DD0	Scrubby Zoom	左右拖动缩放
+0x002F4D80	Rectangular Zoom	矩形范围放大
+0x002F4D08	When Dragged:	拖动时的操作 :
+0x002F4C70	None	无
+0x002F4D48	None	无
+0x002F88F0	None	无
+0x002F8A98	None	无
+0x002F4C30	When Clicked:	单击时的操作 :
+0x002F4B08	Pick Layer without Mod. Key	无修饰键选择图层
+0x0036BAE8	Select Topmost Text	选择最上层文本
+0x0036BB10	Auto H-IN-V	自动竖中横
+0x0036BB28	Oblique Type	斜体倾斜度
+0x0036BB48	Basic Direction	基本书写方向
+0x0036BB68	H-IN-V	竖中横
+0x0036BB78	Direction Settings	书写方向设置
+0x0036BBA0	Into Ruby without Mod. Key	不用修饰键移动到注音
+0x0036BBD8	Always Reserve Ruby Height	始终保留注音行距高度
+0x0036BC10	Shrink	缩小
+0x0036BC20	Gap	间隔
+0x0036BC28	Adjustment	注音配置
+0x0036BC40	Ruby Size	注音大小
+0x0036BC58	Ruby	注音
+0x0036BC68	Ruby Settings	注音设置
+0x0036BC88	Sub	下标
+0x0036BC90	Sup	上标
+0x0036BC98	Style	修饰
+0x0036BCA8	Yscale	纵向宽
+0x0036BCB8	Xscale	横向宽
+0x0036BCC8	Lift	上下
+0x0036BCD8	Spc.	字间距
+0x0036BCE8	Line Gap	行间距
+0x0036BD00	Font Size	文字大小
+0x002F4828	S-Curve Gradation	S 字曲线渐变
+0x002F47F8	Reverse	反转
+0x002F47A0	FG Color to Transparency	前景色到透明色
+0x002F4758	FG Color to BG Color	前景色到背景色
+0x002F46F8	Circle	圆
+0x002F4690	Form	形状
+0x002F4408	Range of Similar Color:	色差容许范围 :
+0x0036BE08	All Similar Color Pixels	颜色相近的所有像素
+0x0036BE40	Pass Through Selections	贯穿选区
+0x002F4540	Ignore Painted Parts	忽略已填充部分
+0x002F44E0	Ignore Existing Selection	忽略已选部分
+0x002F4498	Anti-Aliasing	抗锯齿
+0x002F4220	Anti-Aliasing	抗锯齿
+0x0036BEF8	Dilation Width:	膨胀宽度 :
+0x002F50F8	Merged Image	合成图像
+0x002F4658	Merged Image	合成图像
+0x002F4618	Specified Layer	设置为区域检测源的图层
+0x002F4590	Selection Source:	区域检测源 :
+0x002F4458	Gap Tolerance:	防漏出宽度 :
+0x0036BFA0	Reference Color and Range:	基准色与色差容许范围 :
+0x0036BFD8	Reduce Small Omissions	减少细微检测遗漏
+0x002F43B8	Range of Transparency:	透明容差 :
+0x0036C038	Similar Color Region	颜色相近部分
+0x0036C068	Un-transparent Region	非透明部分
+0x0036C098	Transparent Region(Fuzzy)	透明部分(模糊)
+0x0036C0D0	Transparent Region	透明部分
+0x0036C0F8	Select Enclosed Region	只选择闭合区域
+0x002F41D0	Polygonal + Freeform	多边形 + 手绘
+0x002F4190	Polygonal	多边形
+0x002F4260	Selection Mode:	选择方法 :
+0x002F4118	Selection Mode:	选择方法 :
+0x002F3FD8	Final	确定时
+0x002F3FA8	Preview	预览
+0x002FCF50	Preview	预览
+0x002F3F70	Dragging	拖动中
+0x002F3F28	Resample Settings:	像素再计算方法 :
+0x002F40D0	Rotate 90deg. CW	顺时针旋转 90 度
+0x002F4088	Rotate 90deg. CCW	逆时针旋转 90 度
+0x002F4040	Reverse Vertical	上下翻转
+0x0036C268	Load Guide	读取参考线
+0x0036C280	Save Guide	保存参考线
+0x0036C298	Blend	合成
+0x0036C2A8	Overwrite	覆盖
+0x0036C2C0	Overlapping	重叠部分
+0x0036C2D8	Division	分割数
+0x0036C2F0	Keep Stroke Width	保持图形线宽
+0x002F3E90	Perspective	远近感
+0x002E4FA4	OK	确定
+0x002E5E84	OK	确定
+0x00326398	OK	确定
+0x00326D74	OK	确定
+0x0036C338	Mesh	网格变形
+0x0036C348	Lattice	格子变形
+0x002F3E20	Rotate	旋转
+0x002F6A38	Rotate	旋转
+0x002F77E0	Rotate	旋转
+0x002F3DE8	Deform	自由形状
+0x002F3DB0	Resize	缩放
+0x002F3D70	Freeform	自由变形
+0x002F4158	Freeform	自由变形
+0x0036C3A0	Operation	操作
+0x002F4BF8	Pick & Move	选择并移动
+0x002F3D38	Pick & Move	选择并移动
+0x002F5048	Drag Detection Distance:	拖动检测距离 :
+0x002F3CA0	Drag Detection Distance:	拖动检测距离 :
+0x002F4B60	Drag Detection Distance:	拖动检测距离 :
+0x002F4AB0	Cut & Move without Mod. Key	无修饰键剪切并移动
+0x002F3C48	Cut & Move without Mod. Key	无修饰键剪切并移动
+0x002F4A50	Pick Layer by Ctrl+LeftClick	Ctrl+左键单击选择图层
+0x002F3BE8	Pick Layer by Ctrl+LeftClick	Ctrl+左键单击选择图层
+0x0036C480	Note: Right Click samples bevel parameters of a control point.	提示：右键单击可获取控制点的角落参数。
+0x0036C500	Remove	解除
+0x0036C510	Specify	设置
+0x0036C520	Individual Bevel	个别角落
+0x0036C550	This tool changes the bevel of a control point.	对单击的控制点单独设置角落。
+0x0036C5B0	Note: Right Click samples shape parameters.	提示：右键单击可获取图形参数。
+0x0036C608	Merge Fill	合并填充
+0x0036C620	Line Clipping	线裁剪
+0x0036C640	Close Path	闭合路径
+0x0036C658	Roundness	角落圆度
+0x0036C670	Bevel Length	角落长度
+0x0036C690	End Marker	终点记号
+0x0036C6A8	Start Marker	起点记号0x0036CAC8	Line  	线
+0x0036C6D8	No parameters	无参数
+0x002EC588	Fill	填充
+0x002F30E8	Pressure for Density	浓度的笔压
+0x002F30A8	Pressure for Width	线宽的笔压
+0x0036C760	This tool changes the color of a clicked stroke.	对单击的笔画或图形设置当前绘图色。
+0x002F3B50	*2) 'Pointed/Rounded' is not available for bezuer curve.	*2) 贝塞尔曲线不能切换锐角点
+0x0036C848	- Expand	- 角度固定缩放
+0x002F3B10	- Draw(*2)	- 重新拉线(*2)
+0x002F3AA8	- Bend	- 折弯
+0x002F3938	- Stretch	- 角度固定伸缩
+0x0036C8A0	- Rotate & Stretch	- 旋转/伸缩
+0x002F3950	Modifier Key for bezier handle:	贝塞尔曲线手柄操作的修饰键 :
+0x0036C910	*1) Usable with Prssure tool.	*1) 仅笔压工具选择时有效。
+0x002F3878	- Deselect	- 取消选择
+0x002F3808	- Select PrsCPs(*1)	- 选择笔压点(*1)
+0x002F37A8	- Select Curves	- 选择曲线
+0x002F3738	- Select CPs	- 选择控制点
+0x002F36A0	Modifier Key for Rect. Selection:	矩形选择的修饰键 :
+0x002F3630	Quick Reference for misc.	其他操作的简单说明
+0x0036CA50	These operations are also available in other linework/shape layer tools.	这些操作也可在其他钢笔/形状图层工具中使用。0x0036CEF8	...Control Point, /...Curve	...控制点，/...曲线部分0x0036CF30	Move Shape (ctrl+alt+/)	移动图形 (ctrl+alt+/)0x0036CF60	Pointed/Rounded (ctrl+alt+●)	锐角点切换 (ctrl+alt+●)0x0036CFA0	Connect CPs (shift+ctrl+●->●)	路径连接点 (shift+ctrl+●->●)0x0036CFE0	Delete Path (shift+ctrl+alt)	删除路径 (shift+ctrl+alt)0x0036D020	Duplicate Path (shift+ctrl+/)	复制移动路径 (shift+ctrl+/)0x0036D060	Move Path (shift+alt+/)	移动路径 (shift+alt+/)0x0036D090	Deform. Anchor (shift+alt+●)	变形分隔切换 (shift+alt+●)0x0036D0D0	Deform Path (shift)	宏变形 (shift)0x0036D0F8	Delete CP/Curve (alt)	删除控制点/曲线 (alt)0x0036D128	Move/Add CP (ctrl)	添加/移动控制点 (ctrl)0x0036D150	Select	选择0x002F31B0	Select	选择
+0x0036D160	Note: Right Click samples stroke parameters.	提示：右键单击可获取笔画参数。0x002F3030	Note: Right Click samples stroke parameters.	提示：右键单击可获取笔画参数。
+0x0036D1C0	Prs. Hard ⇔ Soft: Blur	笔压 硬⇔软 - 模糊宽度0x002F2FD8	Prs. Hard ⇔ Soft: Blur	笔压 硬⇔软 - 模糊宽度
+0x0036D1F0	Prs. Hard ⇔ Soft: Blending	笔压 硬⇔软 - 混色0x002F2F80	Prs. Hard ⇔ Soft: Blending	笔压 硬⇔软 - 混色
+0x0036D228	Prs. Hard ⇔ Soft: Density	笔压 硬⇔软 - 画笔浓度0x002F2F28	Prs. Hard ⇔ Soft: Density	笔压 硬⇔软 - 画笔浓度
+0x0036D260	Prs. Hard ⇔ Soft: Brush Size	笔压 硬⇔软 - 画笔大小0x002F2EC8	Prs. Hard ⇔ Soft: Brush Size	笔压 硬⇔软 - 画笔大小
+0x0036D2A0	Pressure Sensitivity:	笔压灵敏度:
+0x002F2E78	Pressure Sensitivity:	笔压灵敏度:
+0x002F2E18	Anti-Ripple for Flatten Brush	降低扁平画笔的波纹
+0x002F2DB8	Disable Density Control Assist	禁用浓度调节辅助
+0x002F2D70	Amplify Dens.	浓度增幅
+0x002F2D30	Sharpness	锐利度
+0x002F2CF0	Miscellaneous	其他
+0x002F2CB8	Anti-Hook	消除线尾
+0x002F2C80	On Screen	画面上的误差
+0x002F2C48	Tolerance	容许误差
+0x002F2C18	Create	创建
+0x002F2BE0	Pressure CP	笔压控制点
+0x002F2BA8	Curve Type	曲线方式
+0x002F2B68	Vectorizeation	矢量化
+0x002F2A58	Erase Target	擦除对象
+0x002F29F8	Detect Intersections From:	交点检测源 :
+0x002F29B8	Entire Stroke	整条描线
+0x002F2970	Intersections	延伸到交点
+//0x002E3174	No	不执行
+0x002F2908	Extend To:	擦除的延长 :
+0x002F28D0	All Layers	全图层
+0x002F2B30	All Layers	全图层
+0x002F2AE8	Sibling Layers	兄弟图层
+0x002F2888	Sibling Layers	兄弟图层
+0x002F5140	Current Layer	当前图层
+0x002F2840	Current Layer	当前图层
+0x002F2AA0	Current Layer	当前图层
+0x002F45D8	Current Layer	当前图层
+0x002F27F8	Erase Target:	擦除对象 :
+0x002F27C0	Layer ARGB	图层 ARGB
+0x0036D198	Dropper	吸管方式
+0x002F2700	Simple(No Prs.)	简易(无笔压)
+0x002F26C8	Accurate	高品质
+0x002F2690	Algorithm	描画方式
+0x002F2618	Apply to Each Shape	按每个形状分别应用
+0x002F25C0	Brightness Jitter	明度抖动
+0x002F2570	Saturation Jitter	饱和度抖动
+0x002F2530	Hue Jitter	色相抖动
+0x002F24D8	FG to BG Color Jitter	前景色到背景色抖动
+0x0036D2B8	Random Ord.	随机顺序
+0x002F2408	Integer Pos.	整数坐标
+0x0036D2F0	Abs. Size	绝对尺寸
+0x002F2370	Gaussian	高斯分布
+0x002F2320	All Direction	全方向散布
+0x002F22E0	Cnt Jitter	数量抖动
+0x002F22A0	Count	数量
+0x0030E918	Count	数量
+0x002F2268	WH Jitter	宽高比抖动
+0x002F2130	Shape Size	图像尺寸
+0x002F20B0	Angle Jitter	角度抖动
+0x002F1FF8	Flow	流量
+0x002F1FB8	Hardness	硬度
+0x002F1F70	Uncolor Prs.	非着色笔压
+0x002F1F28	Coloring	着色
+0x002F1EE0	Blur Width	模糊宽度
+0x002F1EA0	Blur Pressure	模糊笔压
+0x002F1E60	Keep Opacity	保持不透明度
+0x002F1E20	Persistence	色延伸
+0x002F1DE8	Dilution	水分量
+0x002F1DB0	Blending	混色
+0x002F1C80	Layer Paper Texture	图层纸张质感
+0x002F1CF8	Scratch Prs.	飞白笔压(枯笔)
+0x002F1BB8	Scratch Prs.	飞白笔压(枯笔)
+0x002F1B58	Intens.	强度
+0x0036D510	HQ Scaling	高品质缩小
+0x002F1A90	Spacing	间隔
+0x002F21B8	Spacing	间隔
+0x0030E698	Spacing	间隔
+0x0030E890	Spacing	间隔
+0x0036D538	Frequency	出现频率
+0x002F1AD0	Scattering	散布
+0x002F21F8	Scattering	散布
+0x002FDE90	Scattering	散布
+0x0030E6C0	Scattering	散布
+0x0030E8B8	Scattering	散布
+0x002F2178	Size Jitter	尺寸抖动
+0x002F1A50	Size Jitter	尺寸抖动
+0x002F1A10	Scaling	倍率
+0x002F20F8	Scaling	倍率
+0x0030E640	Scaling	倍率
+0x0030E808	Scaling	倍率
+0x002F19D0	Ang. Jitter	角度抖动
+0x002F2030	Angle Control	角度控制
+0x002F1950	Angle Control	角度控制
+0x002F1918	Dens.	浓度
+0x002F18D8	Detect Turn	检测折返
+0x002F18A0	Direction	方向
+0x002F1868	Randomize	随机波动
+0x002F1830	Hair Min	笔毛最小
+0x002F1800	Hair	笔毛
+0x002F1D68	Invert for Transparency	透明色反转浓淡
+0x002F1780	Invert for Transparency	透明色反转浓淡
+0x002F1C28	Invert for Transparency	透明色反转浓淡
+0x002F1750	Invert	反转浓淡
+0x002F1BF8	Invert	反转浓淡
+0x002F1D38	Invert	反转浓淡
+0x002F16F0	Mess.	渗色度
+0x002F16B8	Min Density	最小浓度
+0x002F1688	Density	浓度
+0x0030E588	Density	浓度
+0x0030E750	Density	浓度
+0x002F1650	Min Size	最小尺寸
+0x002F15E0	Drive Usage	磁盘使用量
+0x002F15A0	Memory Usage	内存使用量
+0x002F1570	Snap	吸附
+0x002F1538	Stabilizer	手抖补正
+0x002F14C8	Brush Size	画笔大小
+0x002F1618	Brush Size	画笔大小0x0036DB50	Lock	锁定
+0x002F6350	Lock	保护
+0x002F1250	Opacity	不透明度
+0x002F2660	Opacity	不透明度
+0x002F1220	Mode	模式
+0x0036D780	LPI	线数
+0x002F1100	Threshold	阈值
+0x002F1090	Width	宽度
+0x002F1060	Effect	效果
+0x002F1CC8	Effect	效果
+0x002F11D0	Apply to Linework	应用到钢笔线
+0x002F10C0	Intensity	强度
+0x002F1168	Intensity	强度
+0x002F1138	Paper	纸张质感
+0x002F5F70	Paper	纸张质感
+0x002F67A0	Paper	纸张质感
+0x002F1020	Layer Effect	特殊效果
+0x002F0FF0	Angle	角度
+0x002F1990	Angle	角度
+0x002F2070	Angle	角度
+0x0030E5E8	Angle	角度
+0x0030E7B0	Angle	角度
+0x002F0FC8	Scale	倍率
+0x002F11A0	Scale	倍率
+0x002F1720	Scale	倍率
+0x002F1B88	Scale	倍率
+0x0036D850	Tool Parameters	工具参数
+0x002F0FA0	Tool	工具
+0x002F0E98	Navigator	导航器
+0x002F0EB0	SAI is deleting expired recovery data.	SAI 正在删除过期的恢复数据。
+0x002F0E30	SAI is saving canvases into files.	SAI 正在保存画布。
+0x002EB340	(Not Implemented)	(未实现)
+0x0036D960	[Not specified]	[无设置]
+0x002F0D30	Initialize Settins	初始化设置
+0x002F0CE0	Change Color Name	更改颜色名称
+0x002F0CA0	Delete Color	删除颜色
+0x002F0C60	Register Color	添加颜色
+0x002F0C20	Delete Group	删除分组
+0x002F0BE0	New Group	新建分组
+0x002FD680	New Group	新建分组
+0x002F0BA0	Property	属性
+0x002F9120	Property	属性
+//公用字符 下面强写给分开了
+0x002F0B68	Delete	删除
+0x0036DA50	Delete	删除
+0x002FB8F8	Delete	删除
+0x002FE8E0	Delete	删除
+0x00320F28	Delete	删除
+0x00321268	Delete	删除
+0x00327400	Delete	删除
+0x002F0B30	Duplicate	复制
+0x002F0B00	Move	移动
+0x002F3D00	Move	移动
+0x002F4BC0	Move	移动
+0x002F69E8	Move	移动
+0x002F7780	Move	移动
+0x002FE8A8	Move	移动
+0x002F0AD0	Cancel	取消
+0x002F3E68	Cancel	取消
+0x002F4888	Cancel	取消
+0x003270B8	Cancel	取消
+0x0036DAA8	Pick Path Information	读取路径信息
+0x002F0820	Change Brush Density to 100	将画笔浓度改为 100
+0x002F07C0	Change Brush Density to 90	将画笔浓度改为 90
+0x002F0760	Change Brush Density to 80	将画笔浓度改为 80
+0x002F0700	Change Brush Density to 70	将画笔浓度改为 70
+0x002F06A0	Change Brush Density to 60	将画笔浓度改为 60
+0x002F0640	Change Brush Density to 50	将画笔浓度改为 50
+0x002F05E0	Change Brush Density to 40	将画笔浓度改为 40
+0x002F04C8	Change Brush Density to 30	将画笔浓度改为 30
+0x002F02C8	Change Brush Density to 20	将画笔浓度改为 20
+0x002F0198	Change Brush Density to 10	将画笔浓度改为 10
+0x002F0570	Select Next Size in Brush Size List	选择大一号的画笔尺寸
+0x002F0500	Select Previous Size in Brush Size List	选择小一号的画笔尺寸
+0x002F0460	Temporarily Ignore Snap for Grid	暂时禁用吸附到网格
+0x002F0430	Snap to Knot of Grid	吸附到网格交点
+0x002F0400	Snap to Line of Grid	吸附到网格线
+0x002F0348	Disable Snap for Grid	不吸附网格
+0x002F03C0	Detect Only Red Vanishing Point	仅检测红色消失点
+0x002F0300	Detect Only Blue Vanishing Point	仅检测蓝色消失点
+0x002F0260	Detect Only Green Vanishing Point	仅检测绿色消失点
+0x002F01D0	Detect/Ignore Red Vanishing Point	设置检测/忽略红色消失点
+0x002F0110	Detect/Ignore Blue Vanishing Point	设置检测/忽略蓝色消失点
+0x002F0060	Detect/Ignore Green Vanishing Point	设置检测/忽略绿色消失点
+0x002EFFB0	Temporarily Ignore Symmetric Ruler	暂时禁用对称尺
+0x002EFF50	Temporarily Ignore Ruler	暂时禁用尺子
+0x002EFEE8	Switch to Straight Line Mode	设置直线描画模式
+0x002EFE88	Pick Color from Current layer	从当前图层拾色
+0x002EFE20	Pick Color from Merged Image	从合成图像拾色
+0x0036E2A0	Pick Color(Same as Dropper Tool)	拾色(与吸管工具相同)
+0x002EFD58	Switch to Transparency	切换前景色和透明色
+0x002EFCD0	Exchange Foreground Color and Background Color	交换前景色和背景色
+0x002EFC80	Change Background Color	更改背景色
+0x002EFC28	Change Foreground Color	更改前景色0x0036E7E0	System ID ...	系统 ID ...
+0x002EFBE0	System ID ...	系统 ID ...
+0x002EFBA8	Options ...	设置 ...
+0x002EFB60	Shortcut Keys ...	快捷键设置 ...
+0x002EFB18	Asset Manager ...	素材・工具管理 ...
+0x002EFAF0	Small	小
+0x002EFAB8	Middle	中
+0x002EFA80	Large	大
+0x0036E498	Dark Colors	暗色系
+0x0036E4B0	Light Colors	白色系
+0x002EF918	Auto	自动
+0x002F8AC8	Auto	自动
+0x0036E4E0	Separate Brush Size List	分离画笔大小列表
+0x0036E518	Separate Tool Parameters	分离工具参数
+0x002EF8D0	Separate Tool Panel	分离工具操作面板
+0x002EF878	Separate Color Panel	分离颜色操作面板
+0x002EF820	Separate Layer Panel	分离图层操作面板
+0x002EF7C0	Separate Navigator Panel	分离导航器操作面板
+0x002EF770	Show Brush Preview	显示画笔预览
+0x002EF710	Show Cursor Information	显示光标位置信息
+0x002EF6C0	Show Scratch Pad	显示便签簿
+0x002EF670	Show Swatches	显示用户调色板
+0x002EF620	Show Color Mixer	显示中间色条
+0x002EF5C8	Show HSV/HSL Slider	显示 HSV/HSL 滑块
+0x002EF578	Show RGB Slider	显示 RGB 滑块
+0x002EF520	Show Color Circle	显示色轮
+0x002EF4B8	Show Scroll Bar for View	显示视图滚动条
+0x002EF470	Show Status Bar	显示状态栏
+0x002EF418	Show View Selector	显示视图选择栏
+0x002EF3D0	Show Quick Bar	显示快捷栏
+0x002EF388	Show Tool Panel	显示工具操作面板
+0x002EF340	Show Color Panel	显示颜色操作面板
+0x002EF2F0	Show Layer Panel	显示图层操作面板
+0x002EF298	Show Navigator Panel	显示导航器操作面板
+0x0036E888	Swatches Size	调色板色块尺寸
+0x002EF248	Swatches Size	调色板色块尺寸
+0x002EF228	HSV/HSL Mode	HSV/HSL 模式
+0x002EF1B0	Show Color and Tool Panels on Right Side	在右侧显示颜色与工具面板
+0x002EF100	Show Navigator and Layer Panels on Right Side	在右侧显示导航器与图层面板
+0x002EF0C0	Full Screen	全屏模式
+0x002EF058	Show All User Interface Panels	显示所有操作面板
+0x002EF010	Show Brush Size List on Upper Side	在上方显示画笔大小列表
+0x002EEF60	Show Brush Size List Items in Numerals Only	画笔列表只用数值显示大小
+0x002EEEF8	Use Dot Cursor for Brush Tools	画笔类工具使用点状光标
+0x002EEE80	Show Brush Size Circle for Brush Tools	画笔类工具显示画笔大小圆圈
+0x0036EB20	Window Color	窗口配色
+0x002EEE18	Scaling of User Interface	操作面板部件尺寸
+0x002EEDB8	Separate User Interface Panel	分离操作面板
+0x002EED60	Show User Interface Panel	显示操作面板
+0x002EED20	Scroll View Right	向右滚动视图
+0x002EECD0	Scroll View Left	向左滚动视图
+0x002EEC88	Scroll View Down	向下滚动视图
+0x002EEC48	Scroll View Up	向上滚动视图
+0x002EEC00	Select Next View	选择下一个视图
+0x002EEBB8	Select Previous View	选择上一个视图
+0x002EEB78	Reset Angle of View	重置视图显示角度
+0x002EEB28	Reset Position of View	重置视图显示位置
+0x002EEAD8	Fit View Scaling to Window	使视图倍率适应窗口
+0x002EEA80	Set View Scaling to 100%	将视图显示倍率设为 100%
+0x002EEA40	Rotate View CW	顺时针旋转视图
+0x002EEA08	Rotate View CCW	逆时针旋转视图
+0x002EE9C8	Reverse Horizontal	视图左右翻转
+0x002F4000	Reverse Horizontal	视图左右翻转
+0x002EE978	Zoom Out at Cursor Position	以光标为中心缩小视图
+0x002EE920	Zoom In at Cursor Position	以光标为中心放大视图
+0x002EE8F0	Zoom Out	缩小视图
+0x002F4CD0	Zoom Out	缩小视图
+0x002EE8C0	Zoom In	放大视图
+0x002F4CA0	Zoom In	放大视图
+0x002EE880	Close All Views	关闭所有视图
+0x002EE848	Close View	关闭视图
+0x002EE808	New Floating View	新建浮动视图
+0x002EE7C8	New View	新建视图
+0x002EE798	Median ...	亮度中间值 ...
+0x002EE758	Add Noise ...	添加噪点 ...
+0x002EE708	Unsharp Mask ...	USM 锐化 ...
+0x002EE6C0	Sharpen ...	锐化 ...
+0x002EE678	Lens Blur ...	镜头模糊 ...
+0x002EE630	Gaussian Blur ...	高斯模糊 ...
+0x002EE5F0	Curves ...	色调曲线 ...
+0x002EE5B8	Levels ...	色阶 ...
+0x002EE568	Brightness/Contrast ...	亮度/对比度 ...
+0x002EE520	Hue/Saturation ...	色相/饱和度 ...
+0x002EE4C0	Render	描画
+0x002EE490	Distort	变形
+0x002EE458	Pixelate	像素化
+0x002EE428	Noise	噪点
+0x002EE3F8	Sharpen	锐化
+0x002F17D0	Sharpen	锐化
+0x002EE3C8	Blur	模糊
+0x002F6CD0	Blur	模糊
+0x002F75A0	Blur	模糊
+0x002F7AA8	Blur	模糊
+0x002F83C8	Blur	模糊
+0x002EE388	Color Adjustments	色调调整
+0x002EE338	Reset Perspective Ruler	重置尺子图层(透视尺)
+0x002EE2D0	Align Ruler Canter to Pixel Boundary	对称尺中心对齐到像素边界
+//⚠️ 英文 Canter 是 Center 的拼写错误，不影响翻译。
+0x002EE260	Align Ruler Canter to Pixel Center	对称尺中心对齐到像素中心
+0x0036F1D0	Fit Perspective Grid to Green and Blue Axises Plane	将透视网格配置到透视尺的绿蓝轴平面
+0x0036F240	Fit Perspective Grid to Blue and Red Axises Plane	将透视网格配置到透视尺的蓝红轴平面
+0x0036F2B0	Fit Perspective Grid to Green and Red Axises Plane	将透视网格配置到透视尺的绿红轴平面
+0x0036F318	Lock All Vanishing Point	固定所有消失点
+0x002EE038	Lock Red Vanishing Point	固定红色消失点
+0x002EDEF8	Lock Blue Vanishing Point	固定蓝色消失点
+0x002EDD78	Lock Green Vanishing Point	固定绿色消失点
+0x002EDA58	Lock Pivot	固定旋转轴
+0x002EDA70	Move Pivot to Red Vanishing Point	将旋转轴对准透视尺的红色消失点
+0x002EDA10	Move Pivot to Blue Vanishing Point	将旋转轴对准透视尺的蓝色消失点
+0x002ED9B0	Move Pivot to Green Vanishing Point	将旋转轴对准透视尺的绿色消失点
+0x002ED968	Reset Ruler	重置尺子
+0x002ED930	Vanishing Point	消失点（集中线）
+0x002ED8E0	Concentric Ellipse	同心圆
+0x002ED890	Parallel Lines	平行线
+0x002ED860	Ellipse	椭圆
+0x002ED828	Straight	直线
+0x002F46C0	Straight	直线
+0x002ED7E8	Show/Hide Ruler	显示/隐藏尺子
+0x002ED760	Cull Selection by 'Region Created from Pixel Opacity'	用像素不透明度创建的区域遮盖选区
+0x002ED6C0	Delete 'Region Created from Pixel Opacity' from Selection	将像素不透明度创建的区域从选区中删除
+0x002ED650	Add 'Region Created from Pixel Opacity' to Selection	将像素不透明度创建的区域添加到选区
+0x002ED590	Set 'Region Created from Pixel Opacity' as Selection	将像素不透明度创建的区域设为选区
+0x002ED540	Deselect All CPs	取消所有控制点的选择
+0x002ED4D0	Select Strokes with Selection	选择与选区重叠的笔画
+0x002ED478	Select CPs in Selection	选择选区内的控制点
+0x002ED430	Erode Selection 1px	收缩选区 1 像素
+0x002ED3D8	Dilate Selection 1px	膨胀选区 1 像素
+0x002ED388	Erode Selection ...	收缩选区 ...
+0x002ED338	Dilate Selection ...	膨胀选区 ...
+0x002ED2E8	Show/Hide Selection	显示/隐藏选区
+0x002ED2A0	Invert Selection	反转选区
+0x0036F928	Discard Selection	取消选区
+0x002ED1A8	Apply Layer Mask	应用图层蒙版
+0x002ED188	New Layer Mask	创建图层蒙版
+0x002ED1D0	Show Alone Marked Ancestor Layer Folder	单独显示已标记的上级图层组
+0x002ED0F0	Change Visibility of Marked Ancestor Layer Folder	更改已标记上级图层组的可见状态
+0x002ED070	Mark Layer Folder for Visibility Change	将图层组标记为可见状态操作对象
+0x002ED010	Show Alone Layer	单独显示图层
+0x002ECFB8	Change Visibility of Layer	更改图层的可见状态
+0x002ECF70	Send Layer to Back	将图层移到最底层
+0x002ECF18	Bring Layer to Front	将图层移到最顶层
+0x002ECEC8	Send Layer Backward	将图层下移一层
+0x002ECE78	Bring Layer Forward	将图层上移一层
+0x0036FBB8	Select Layer Mask	选择图层蒙版
+0x0036FBE0	Select Layer Body	选择图层本体
+0x002ECE20	Open/Close Layer Folder	展开/收起图层组
+0x002ECDC0	Select/Deselect Layer Mask	选择/取消图层蒙版
+0x002ECD70	Select Backward Layer as Current Layer	将下一图层选为当前图层
+0x002ECCD0	Select Forward Layer as Current Layer	将上一图层选为当前图层
+0x002F12F0	Selection Source	设置为区域检测源
+0x002ECC80	Selection Source	设置为区域检测源
+0x002F12B0	Clipping Group	用下方图层剪贴
+0x002ECC40	Clipping Group	用下方图层剪贴
+0x002ECBE0	Protect Layer from Modifying	禁止图层编辑
+0x002ECB88	Protect Layer from Moving	禁止图层移动
+0x002ECB30	Protect Layer from Painting	禁止在图层上绘制
+0x002ECAE0	Preserve Pixel Opacity	保护像素不透明度
+0x002ECA98	Cut & Nudge Right	剪切图像并向右移动
+0x002ECA48	Cut & Nudge Left	剪切图像并向左移动
+0x002EC9F8	Cut & Nudge Down	剪切图像并向下移动
+0x002EC9B0	Cut & Nudge Up	剪切图像并向上移动
+0x002EC970	Nudge Right	向右移动图层
+0x002EC930	Nudge Left	向左移动图层
+0x002EC8F8	Nudge Down	向下移动图层
+0x002EC8C0	Nudge Up	向上移动图层
+0x002EC370	New Symmetric Ruler	新建对称尺
+0x002EC310	New 3VP Perspective Grid	新建三点透视网格
+0x002EC2B8	New 2VP Perspective Grid	新建两点透视网格
+0x002EC260	New 3VP Perspective Ruler	新建三点透视尺
+0x002EC208	New 2VP Perspective Ruler	新建两点透视尺
+0x002EC1B0	New 1VP Perspective Ruler	新建一点透视尺
+0x00370070	New Paper Grid	新建用纸网格
+0x002EC878	Layer Property ...	图层属性 ...
+0x002EC830	Rotate Layer 90deg. CW	顺时针旋转图层 90 度
+0x002EC7E0	Rotate Layer 90deg. CCW	逆时针旋转图层 90 度
+0x002EC790	Reverse Layer Vertical	图层上下翻转
+0x002EC740	Reverse Layer Horizontal	图层左右翻转
+0x002EC708	Transform Layer	自由变形
+0x002EC690	Convert Symmetric Shapes to Regular Shapes	将对称映射转换为实际图形
+0x002EC650	Rasterize	栅格化
+0x002EC5F0	Convert Luminance to Opacity	将亮度转换为不透明度
+0x002EC5B8	Outline ...	绘制轮廓线 ...0x00370668	Fill	填充
+0x002EC550	Flatten Image	拼合图像
+0x002EC500	Merge Visible Layers	合并可见图层
+0x002EC4B8	Merge Layers	合并图层
+0x002EC470	Transfer Painting into Next Layer	向下转写
+0x002EC420	Erase Layer	清除图层
+0x002EC3E8	Delete Layer	删除图层
+0x002EC3B0	Copy Layer	复制图层
+0x002EC168	New Layer Folder	新建图层组
+0x003703B0	New Pattern Layer	新建图层(图案)
+0x003703D8	New Shape Layer	新建图层(图形)
+0x002EC120	New Linework Layer	新建图层(钢笔)
+0x002EC0D8	New Normal Layer	新建图层(普通)
+0x002EC0A0	Ver.1 Like	Ver.1 风格
+0x002F6558	Ver.1 Like	Ver.1 风格
+0x002EC068	Multiply	正片叠底
+0x002F5488	Multiply	正片叠底
+0x002F8A20	Multiply	正片叠底
+0x002EC030	Deep	深沉
+0x002F89E8	Deep	深沉
+0x002EC000	Vivid	鲜艳
+0x002F89B8	Vivid	鲜艳
+0x002EBFD0	Normal	通常
+0x002F2788	Normal	通常
+0x002F5450	Normal	通常
+0x002F8988	Normal	通常
+0x002F8BE0	Normal	通常
+0x002EBF70	Specify Background Color ...	设置背景色 ...
+0x002EBEF0	Transparency(Color)	透明(指定色)
+0x002EBEA8	Transparency(Black)	透明(黑)
+0x002EBE60	Transparency(White)	透明(白)
+0x002EBE08	Transparency(Dark Checker)	透明(暗色格子)
+0x002EBD98	Transparency(Bright Checker)	透明(明亮格子)
+0x002EBD58	Color	指定色
+0x002F0F70	Color	指定色
+0x002F24A0	Color	指定色
+0x002F4910	Color	指定色
+0x002F5E48	Color	指定色
+0x002F71E8	Color	指定色
+0x002F7FD0	Color	指定色
+0x002EBD28	Black	黑
+0x002EBCF8	White	白
+0x00370608	Grayscale	灰度
+0x00370620	RGB Color	RGB 色彩
+0x002EBCB0	Layer Effect Color	特殊效果的发色
+0x002EBC68	Canvas Background	画布背景
+0x002F4728	Color Mode	色彩模式
+0x002EBC18	Rotate Canvas 90deg. CW	顺时针旋转画布 90 度
+0x002EBBC0	Rotate Canvas 90deg. CCW	逆时针旋转画布 90 度
+0x002EBB70	Reverse Canvas Vertical	画布上下翻转
+0x002EBB20	Reverse Canvas Horizontal	画布左右翻转
+0x002EBAD0	Trim Canvas by Selection	按选区大小裁剪画布
+0x002EBA88	Change Canvas Size ...	更改画布尺寸 ...
+0x002EBA20	Change Canvas Resolution ...	更改画布分辨率 ...
+0x002EB9E0	Select All	全选
+0x00327448	Select All	全选
+0x002EB988	Paste without Deselecting	不取消选区粘贴
+0x002EB928	Copy by Selection Bounds	按选区大小复制
+0x002EB8F0	Paste	粘贴
+0x003273B8	Paste	粘贴
+0x002EB8C8	Copy	复制
+0x00327378	Copy	复制
+0x002EB8A8	Cut	剪切
+0x00327340	Cut	剪切
+0x002EB880	Redo	重做
+0x002EB858	Undo	撤销
+0x00327300	Undo	撤销
+0x002EB788	.bmp (Bitmap)	.bmp (位图)
+0x00370908	Clear Recent Files List	清除最近使用的文件列表
+0x002EB6A0	Quit	退出
+0x002EB678	Close	关闭
+0x00327108	Close	关闭
+0x002EB578	Recover Work ...	恢复工程文件 ...
+0x002EB600	Save Canvas with FileViewer ...	用文件查看器保存画布 ...
+0x002EB5A0	Open Canvas with FileViewer ...	用文件查看器打开画布 ...
+0x002EB528	Always Use FileViewer	使用SAI2 的文件查看器
+0x00370A30	Always Create Floating View	始终创建浮动视图
+0x002EB500	Export	导出
+0x002FB4C8	Export	导出
+0x002EB4D0	Save As ...	画布另存为 ...
+0x002EB4A0	Save ...	保存画布 ...
+0x002EB478	Recent	最近使用的
+0x002EB420	Create Canvas from Clipboard	从剪贴板创建画布
+0x002EB3F0	Open ...	打开画布 ...
+0x002EB3C8	New ...	新建画布...
+0x002EB388	Reset to Defaults	恢复初始设置
+0x002EB310	[None]	[无]
+0x00370B58	Brush Settings Etc.	画笔设置等
+0x00370B80	Ruler Control Etc.	尺子控制等
+0x00370BA8	Painting Color Settings Etc.	绘图色设置等
+0x00370BE8	Layer Settings Etc.	图层设置等
+0x002EB230	Other	其他
+0x002EE4F0	Other	其他
+0x002EB200	Window	窗口
+0x002EB1D0	View	视图
+0x002EB1A0	Filter	滤镜
+0x002EB190	Ruler	尺子
+0x002EAA38	Selection	选区
+0x002F1500	Selection	选区
+0x002EB160	Layer	图层
+0x002EAB48	Canvas	画布
+0x002F6770	Canvas	画布
+0x00319180	Canvas	画布
+0x002EB130	Edit	编辑
+0x002F7150	Edit	编辑
+0x002F7F20	Edit	编辑
+0x002EB100	File	文件
+0x00370CB8	Cannot load the brush texture.	无法读取画笔纹理。
+0x00370D00	Cannot load the scattering image.	无法读取散布图像。
+0x00370D48	Cannot load the bristle.	无法读取鬃毛数据。
+0x00370D80	Cannot load the blotmap.	无法读取渗色图。
+0x00370DB8	Cannot load the layer paper.	无法读取图层纸张质感。
+0x00370E00	Cannot create the scattering image.	无法创建散布图像。
+0x00370E50	Cannot create the brush texture.	无法创建画笔纹理。
+0x00370E98	Cannot create the brush form.	无法创建画笔形状。
+0x00370ED8	Cannot create the layer paper.	无法创建图层纸张质感。
+0x00370F18	Cannot create the scratch pad.	无法创建便签簿。
+0x00370F58	Cannot create the swaches.	无法创建用户调色板。
+0x00370F90	Cannot recover the history.	无法恢复历史记录。
+0x00370FC8	Cannot create the new history.	无法新建历史记录。
+0x00371010	Cannot rename the backup file to its original filename.	无法将备份文件恢复为原文件名。
+0x00371080	Cannot delete the backup file.	无法删除备份文件。
+0x003710C0	Cannot delete the failed file.	无法删除保存失败的文件。
+0x00371100	Cannot recover the canvas.	无法恢复画布。
+0x00371138	Cannot save the canvas.	无法保存画布。
+0x00371168	Cannot open the canvas.	无法打开画布。
+0x002EB0A0	Cannot create the new canvas.	无法新建画布。
+0x002EB060	Recovered the remained history.	已恢复剩余的历史记录。
+0x002EAE90	The store location of history data and image thumbnails are changed to the following path.\nStarts SAI after the stored contents were moved.\n* The change of the store location is not applied for SAIv2 Preview.2017-07-29 or earlier.	历史记录及作业恢复用数据、图像缩略图的保存位置已更改为以下文件夹。\n移动已保存的数据后启动 SAI。\n* 保存位置的更改不适用于 2017-07-29 版以前的进度报告版。
+0x002EAD50	Cannot shutdown or logoff while the transformation mode or the filter mode.\nPlease end the transformation mode or the filter mode and retry shutdown or logoff.	在执行图像变形或滤镜期间无法关机或注销。\n请结束图像变形或滤镜后重新关机或注销。
+0x002EAC90	This operation is invalid while the transformation mode or the filter mode.	在执行图像变形或滤镜期间无法进行此操作。
+0x002EABE0	This operation does not apply to the scratch pad.	此操作不能用于便签簿。
+0x002EAB80	This operation does not apply to this layer.	此操作不能用于当前图层。
+0x002EAAE0	This operation does not apply to multiple layers.	此操作不能同时用于多个图层。
+0x002EAA50	If the selection source is a layer folder, the folder must be visible.	区域提取源为图层组时，必须为可见状态。
+0x002EA9D0	This operation is including some invisible layers.	操作对象包含不可见图层时，无法进行此操作。
+0x002EA920	This operation does not apply to invisible layer.	无法对不可见图层进行此操作。
+0x002EA8A0	This folder is including some layers protected from modifying.	当前文件夹内的图层被保护为无法编辑。
+0x002EA820	This folder is including some layers protected from layer move.	当前文件夹内的图层被保护为无法移动。
+0x002EA7A0	This folder is including some layers protected from painting.	当前文件夹内的图层被保护为无法绘制。
+0x002EA6F0	This operation is including some layers protected from modifying.	操作对象包含被保护为无法编辑的图层。
+0x002EA640	This operation is including some layers protected from layer move.	操作对象包含被保护为无法移动的图层。
+0x002EA590	This operation is including some layers protected from painting.	操作对象包含被保护为无法绘制的图层。
+0x002EA540	This layer is protected from modifying.	此图层被保护为无法编辑。
+0x002EA480	This layer is protected from layer move.	此图层被保护为无法移动。
+0x002EA410	This layer is protected from painting.	此图层被保护为无法绘制。
+0x002EA370	A selection source layer is not specified.	未设置区域提取源的图层。
+0x002EA2D0	There is no image to cut in the selection.	选区内没有可剪切的图像。
+0x002EA1D8	There is no image to operate.	没有处理对象的图像。
+0x002EA280	Any operatable layer is not selected.	未选择可操作的图层。
+0x002EA140	This operation is stopped because it tried to delete the last one layer.	无法删除所有图层。
+0x002EA090	Cannot open this scratch pad file in this older version of SAI Ver.2.	此便签簿文件无法在当前使用的旧版 SAI Ver.2 中打开。
+0x002E7040	Cannot open this scratch pad file in this older version of SAI Ver.2.	此便签簿文件无法在当前使用的旧版 SAI Ver.2 中打开。
+0x002EA030	The contents of this file is not Scratch Pad.	文件内容不是便签簿。
+0x002E9F30	Cannot open this swatches file in this older version of SAI Ver.2.	此用户调色板文件无法在当前使用的旧版 SAI Ver.2 中打开。
+0x002E9E90	The contents of this file is not Swatches.	文件内容不是用户调色板。
+0x002E9E00	Cannot open this color history file in this older version of SAI Ver.2.	此色彩历史文件无法在当前使用的旧版 SAI Ver.2 中打开。
+0x002E9DA0	The contents of this file is not Color History.	文件内容不是色彩历史。
+0x002E9CB0	The limit of Width or Height for TARGA format is 65535px.	TARGA 格式的宽度和高度上限为 65535px。
+0x002E73F0	The limit of Width or Height for TARGA format is 65535px.	TARGA 格式的宽度和高度上限为 65535px。
+0x003721F0	The contents of this file is not PNG format.	文件内容不是 PNG 格式。
+0x002E9BC0	The limit of Width or Height for JPEG format is 65535px.	JPEG 格式的宽度和高度上限为 65535px。
+0x002E7330	The limit of Width or Height for JPEG format is 65535px.	JPEG 格式的宽度和高度上限为 65535px。
+0x003722D0	Unsupported channel combination.	不支持的通道组合。
+0x002E9B80	The nest of folders is corrupt.	图层组的嵌套结构已损坏。
+0x002E8640	The nest of folders is corrupt.	图层组的嵌套结构已损坏。
+0x002E9B20	The number of layer move group IDs is invalid.	图层移动组的 ID 数量不正确。
+0x003727C0	The limit of Width or Height for PSB format is 300000px.	PSB 格式的宽度和高度上限为 300000px。
+0x002E99F0	The limit of Width or Height for PSD format is 30000px.	PSD 格式的宽度和高度上限为 30000px。
+0x002E71D0	The limit of Width or Height for PSD format is 30000px.	PSD 格式的宽度和高度上限为 30000px。
+0x002E9920	This PSB file has illegal version number.	版本号不正确的 PSB 文件。
+0x002E9870	This PSD file has illegal version number.	版本号不正确的 PSD 文件。
+0x00372570	The contents of this file is not PSB format.	文件内容不是 PSB 格式。
+0x003725D0	The contents of this file is not PSD format.	文件内容不是 PSD 格式。
+0x002E96F0	This *.sai file is not containing thumbnail data.	SAI 格式文件中不存在缩略图数据。
+0x002E9630	*.sai file that created by Beta versions of SAI Ver.1 is not supported.	不支持由正式发布前的测试版 SAI Ver.1 创建的 SAI 格式文件。
+0x002E9520	The contents of this file is not SAI Ver.1 canvas.	文件内容不是 SAI 格式。
+0x002E6D30	The contents of this file is not SAI Ver.1 canvas.	文件内容不是 SAI 格式。
+0x002E9400	The contents of this file is broken.\nRed tiles in a layer named "Error Tiles(...)" indicate broken tiles on the next layer.	文件内容已损坏。\n名为 "Error Tiles(...)" 的图层上的红色方块，表示其下对应图层的位置损坏
+0x002E74F0	The contents of this file is broken.\nRed tiles in a layer named "Error Tiles(...)" indicate broken tiles on the next layer.	文件内容已损坏。\n名为 "Error Tiles(...)" 的图层上的红色方块，表示其下对应图层的位置损坏
+0x002E9320	Cannot open this *.sai2 file in this older version of SAI Ver.2.	此 SAI2 格式文件无法在当前使用的旧版 SAI Ver.2 中打开。
+0x002E6F90	Cannot open this *.sai2 file in this older version of SAI Ver.2.	此 SAI2 格式文件无法在当前使用的旧版 SAI Ver.2 中打开。
+0x002E9290	The contents of this file is not SAI Ver.2 canvas.	文件内容不是 SAI2 格式。
+0x002E6CA0	The contents of this file is not SAI Ver.2 canvas.	文件内容不是 SAI2 格式。
+0x002E9200	View construction failed.	视图创建失败。
+0x002E6C18	View construction failed.	视图创建失败。
+0x002E91A0	Canvas construction failed.	画布创建失败。
+0x002E6BB8	Canvas construction failed.	画布创建失败。
+0x002E9130	Unsupported number of channels.	不支持的成分数量。
+0x002E7830	Unsupported number of channels.	不支持的成分数量。
+0x002E90D8	Unsupported color mode.	不支持的颜色模式。
+0x002E7618	Unsupported color mode.	不支持的颜色模式。
+0x002E9090	Unsupported bits count of channel.	不支持的成分位数。
+0x002E7790	Unsupported bits count of channel.	不支持的成分位数。
+0x002E9010	File backup failed.	文件备份失败。
+0x002E6AE8	File backup failed.	文件备份失败。
+0x002E8F90	This file extension is not supported.	不支持的文件扩展名。
+0x002E6B40	This file extension is not supported.	不支持的文件扩展名。
+0x002E8F40	The contents of this file is broken.	文件内容已损坏。
+0x002E7470	The contents of this file is broken.	文件内容已损坏。
+0x002E8E70	Discharging of recovery point into file took a fatal error.\nPlease save your works and restart program.	将恢复点写入文件时发生无法恢复的错误。\n请保存正在处理的数据并重新启动 SAI。
+0x002E8D90	Discharging of recovery point into file failed.	将恢复点写入文件失败。
+0x002E8CA0	Discharging of history data into file took a fatal error.\nPlease save your works and restart program.	将历史记录数据写入文件时发生无法恢复的错误。\n请保存正在处理的数据并重新启动 SAI。
+0x002E8C40	Discharging of history data into file failed.	将历史记录数据写入文件失败。
+0x002E8BB0	Creation of recovery point failed.	恢复点创建失败。
+0x00372E40	A fatal error occurred on layer move. Please restart the program.	图层移动时发生无法恢复的错误。请重新启动程序。
+0x00372ED0	The manual saved point associated to this SAI2 file not found.	不存在与此 SAI2 格式对应的手动保存点。
+0x002E8B00	Cannot recover this recovery data in this older version of SAI Ver.2.	此恢复数据无法在当前使用的旧版 SAI 中恢复。0x003733E0	The layer is not placed in ±100000px from center of canvas.	图层位置超出画布中心 ±100000px 的范围。
+0x00373460	The limit of canvas height is 100000px.	画布高度上限为 100000px。
+0x003734B0	The limit of canvas width is 100000px.	画布宽度上限为 100000px。
+0x00373100	The file size exceeds the limit of 2GB.	文件大小超过上限 2GB。
+0x00373150	The file size exceeds the limit of 256TB.	文件大小超过上限 256TB。
+0x002E8470	The number of hair points of this bristle definition bitmap is more than 63.	所选鬃毛定义位图的毛点数超过 63 点。
+0x00373250	The color mode of this bristle definition bitmap is not 24bit or 32bit colors.	所选鬃毛定义位图的颜色模式不是 24 位或 32 位彩色。
+0x002E8360	This bristle definition bitmap is not 63x63.	所选鬃毛定义位图的尺寸超过 63×63。
+0x002E82C0	The color mode of this scatter bitmap is not gray scale.	所选散布位图的颜色模式不是灰度。
+0x003733D0	This scatter data contains a mix of different color modes.	所选散布位图混合了不同的颜色模式。
+0x00373450	The maximum registering number of bitmaps in a scatter data is 15.	一个散布形状中最多可登记 15 个位图。
+0x003734E0	The color mode of this scatter bitmap is not gray scale or 32bit ARGB.	所选散布位图的颜色模式不是灰度或 32 位 ARGB。
+0x00373570	This scatter bitmap is larger than 5000x5000.	所选散布位图的尺寸超过 5000×5000。
+0x003735D0	The color mode of this bitmap is not gray scale.	所选位图的颜色模式不是灰度。
+0x00373640	This bitmap is larger than 5000x5000.	所选位图的尺寸超过 5000×5000。
+0x002E8040	The following license certificate is ignored because it is for a revoked license.	以下授权证书因属于已失效的授权而被拒绝。
+0x002E7F60	The following license certificate is ignored because it is broken.	以下授权证书因内容损坏而被拒绝。
+0x002E7EE0	An error occured when open the following license certificate.	读取以下授权证书时发生错误。
+0x002E7E70	* The system ID in this certificate	* 写入此授权证书中的系统 ID
+0x002E7DF0	* The system ID that SAI Ver.2 generated	* SAI Ver.2 生成的系统 ID
+0x002E7C30	The following license certificate is ignored because it is not issued for this computer.\n(The system ID in this certificate is different from the system ID that SAI Ver.2 generated.)	以下授权证书因不是为此计算机获取而被拒绝。\n（授权证书中记载的系统 ID 与 SAI Ver.2 生成的系统 ID 不一致）
+0x002E7B40	The program is started in the restricted mode because a valid license certificate is not installed.	未设置有效的授权证书，因此以限制功能的状态启动。
+0x00373B40	Curve fitting is stopped because the number of control points reached the limit of 1000.	因为控制点数量达到上限 1000 个，形状匹配已中断。
+0x002E8680	The depth of layer folders exceed the limit 10 level.	图层组层级数超过上限 10 层。
+0x00373C70	Found errors in some linework or shape layers.\nThe errors were corrected and the colors of the errored strokes and shapes were changed to red.	检测到部分图形类图层的数据异常。\n异常笔画或图形的参数已修正并改为红色。
+0x002E7AA0	The resolution is larger than limit 10000 pixels/cm.	画布打印分辨率超过上限 10000 pixels/cm。
+0x002E7A30	The resolution is larger than limit 25400 pixels/inch.	画布打印分辨率超过上限 25400 pixels/inch。
+0x002E79A0	The resolution is not larger than 1 pixels/inch.	画布打印分辨率未达到 1 pixels/inch 以上。
+0x002E78E0	The number of vertical pixels is not larger than 1px.	画布垂直像素数未达到 1px 以上。
+0x002E7870	The number of horizontal pixels is not larger than 1px.	画布水平像素数未达到 1px 以上。
+0x002E6A60	The specified file is already existing. Do you overwrite this file?	已存在同名文件。是否覆盖？
+0x002E6960	Cannot save as a file because the specified filename is already existing as a folder.	因为已存在同名文件夹，无法使用此文件名。
+0x002E68E0	The specified folder is not existing.	保存目标文件夹不存在。
+0x00374150	Next characters are unable to use for a filename. " * / : < > ? \ | ^	" * / : < > ? \ | ^ 不能用于素材名。
+0x002E6830	Next characters are unable to use for a filename. " * / : < > ? \ |	" * / : < > ? \ | 不能用于文件名。
+0x002E6790	Next characters are unable to use for a path. " * < > ? |	" * < > ? | 不能用于路径名。
+0x002E6738	Name is not inputted.	未输入名称。
+0x002E6328	Filename is not inputted.	未输入文件名。
+0x00374350	Update for the main menu failed.	主菜单更新失败。
+0x002E6610	Cannot create the store folder for history data and image thumbnails.	无法创建恢复数据和图像缩略图的保存文件夹。
+0x002E64F0	Cannot create the store folder for history data and image thumbnails.\nCreate the store folder into the default path.	无法创建恢复数据和图像缩略图的保存文件夹。\n将在默认位置创建文件夹。
+0x002E6360	The store location of history data and image thumbnails are changed, but cannot create the store folder into the new location.\nCreate the store folder into the original path.	恢复数据和图像缩略图的保存位置已更改，但无法在更改后的位置创建文件夹。\n将在更改前的位置创建文件夹。
+0x002E6290	Cannot complete user data folder initialization.	无法完成数据文件夹的初始化。
+0x002E61E0	Cannot start user data folder initialization.	无法开始数据文件夹的初始化。
+0x00374750	Cannot load the setting file.	设置文件读取失败。
+0x002E6198	Folders:	文件夹 :
+0x002E6160	Files:	文件 :
+0x002E6030	The following files and folders that constitutes SAI not exist.\nPlease extract all files and folders in the Zip archive of the software distribution.	构成 SAI 的以下文件或文件夹不存在。\n请将分发包的 Zip 文件全部解压。
+0x002E5F70	Initial creation of the following data folder failed.	以下数据文件夹的创建失败。
+0x002E5EE0	FPU control mode was changed by some extension program.	浮点运算单元的控制模式被扩展 DLL 等更改，无法正常运行，因此 SAI 将退出。
+0x0031A5A0	[The Store Location of History Data and Image File Thumbnails] in [Environment] page is not a path in a local drive.	[环境]页面中的[历史记录、恢复用数据、图像缩略图文件的保存位置]不是本地驱动器上的路径。
+0x003B5330	Disable the function that restrict the stroke direction to horizontal or vertical with holding Shift key.	禁用按住 Shift 键将笔画限制为水平或垂直方向的功能。
+0x003B5410	Disable the function that connect the previous stroke end and the current stroke head with holding Shift key.	禁用按住 Shift 键将上一次笔画终点与本次笔画起点用直线连接的功能。
+0x0031A500	Change brush size relatively with [Ctrl + Alt + Drag]	通过 [Ctrl + Alt + 拖动] 进行的画笔尺寸更改以相对大小进行。
+0x0031A450	Display the brush circle in the true painting size	按绘制时的实际尺寸显示画笔圆圈。
+0x0031A3F0	Put the brush circle at stabilized coordinate	将画笔圆圈显示在手抖补正后的位置。
+0x0031A220	If the tablet control mode is [Windows API],  the drawing will be aborted immediately when the pen upped outside of the view window. This setting is able to override by [Stabi. Mode] in [Miscellaneous] of a brush tool.	当数位板控制模式为 [Windows API] 时，笔在视图窗口外离开检测面会立即中断绘制。此设置可被画笔工具[其他]中的[补正方式]覆盖。
+0x0031A150	Adjust the feeling of brush stroke end in stabilizer 1-15 to similar to Ver.1	将手抖补正 1～15 时的画笔笔画出入锋调整为与 Ver.1 相同的感触。
+0x0031A018	Brush Tools	画笔类工具
+0x003B58B0	Change the value scale of HSV/HSL sliders from 0-100 to 0-255 same as Ver.1	将 HSV/HSL 滑块的数值显示从 0～100 改为与 Ver.1 相同的 0～255。
+0x0031A030	Hide the indicator of canvas position in not operating navigator	除操作导航器时以外，隐藏画布位置指示。
+0x00319BE0	Minimum width outside of an image when reset the position of a view :	使视图显示尺寸适应窗口时的最小余白 :
+0x00319B40	Expand the scroll range of view to the same as Ver.1	将视图滚动范围设为与 Ver.1 相同。
+0x00319AA0	Zoom in or out by mouse wheel at the center of view always	将视图中心作为鼠标滚轮缩放的中心。
+0x00319A10	Swap zoom-in and zoom-out for mouse wheel on view	反转鼠标滚轮对视图放大和缩小的方向。
+0x003198E0	Fit the view scale to the window when reset the position of a view	重置视图显示位置时，使显示倍率适应窗口。
+0x00319820	Merge the parent layer of a clipping group to the next layer without merging the group	不合并剪贴组，而将组的父图层合并到下一图层。
+0x003196F0	This setting is applied to Cut, Move, Transformation, Rasterization and Color Adjustment.	适用于剪切、移动、变形、栅格化、色调调整。
+0x003196A0	Allow processing of invisible layers	允许加工不可见图层。
+0x00319480	Linear Burn, Linear Doudge, Linear Light, Color Burn, Color Doudge, Vivid Light, Hard Mix and Difference are called 'The 8 Special Blending Modes'. The blending results of 'The 8 Special Blending Modes' are different by 'Transparency Shapes Layer' checkbox in Photoshop.	「线性加深」「线性减淡」「线性光」「颜色加深」「颜色减淡」「亮光」「实色混合」「差的绝对值」 这8 种被称为“8 种特殊混合模式”。在 Photoshop 中，这 8 种混合模式的结果会因“透明形状图层”复选框是否勾选而不同。
+0x00319330	Add 'The 8 Special Blending Modes' allowed 'Transparency Shapes Layer' into the blend mode dropdown list	追加 8 种 等效于 「Photoshop」勾选透明形状」的图层混合模式
+0x00319230	For layer blending modes, use common names instead of SAI dialect	图层混合模式以通用名称显示，而非 SAI自己的名称。
+0x003B61B0	The wait time before hiding the progress bar after canvas saving is complete :	画布保存完成后到隐藏进度条之前的等待时间 :
+0x00319120	Always open the last selected path for [Export]	[以指定文件格式导出]时始终打开最后选择的文件夹。
+0x00319080	Always open the last selected path for [Open]	[打开画布]时始终打开最后选择的文件夹。
+0x003B6310	To access remote computers with this setting enabled, need to create a network drive.	启用此设置后访问远程计算机时，需要创建网络驱动器。
+0x003B63C0	Browse files and folders using only the file system API	仅使用文件系统 API 浏览文件和文件夹。
+0x00318E68	FileViewer	文件查看器
+0x00318F70	Do not hide separated panels when turned off [Show All User Interface Panels]	关闭[显示所有操作面板]时，使已分离的面板保持显示。
+0x00318E80	Display a path like 'C:\folder\file.sai2' instead of like 'Local Disk(C:) / folder / file.sai2'.	路径名不使用“本地磁盘(C:) / 文件夹 / 文件.sai2”等形式，而显示为“C:\文件夹\文件.sai2”。
+0x00318DB0	Display file system path instead of shell namespace path	显示文件系统路径，而非 Shell 命名空间路径。
+0x00318CF0	Disable the operation to open a property of an item by double click	禁用双击打开项目属性的操作。
+0x00318C70	Show the system menu with Alt + Space	使用 Alt + Space 显示系统菜单。
+0x00318BF8	Common	常规
+0x00318BB0	New Location :	新保存位置 :
+0x003188B8	Current Location :	当前保存位置 :
+0x003188E0	Please input a path in a local drive. The change of the store location is aplied from the next starting of SAI. The stored contents is moved at the next starting.\n* The change of the store location is not applied for Ver.2017-07-29 or earlier. And the stored contents is not moved on Ver.2019-01-29 or earlier.	请设置本地驱动器上的路径。保存位置的更改从下次启动 SAI 时生效，已保存的数据也会在此时移动。\n* 保存位置的更改不适用于 2017-07-29 版以前的进度报告版。另外，已保存数据的移动在 2019-01-29 版以前不会执行。
+0x003B69F0	The Store Location of History/Recovery Data and Image File Thumbnails	历史记录、恢复用数据、图像缩略图文件的保存位置
+0x003183A0	* Please note that even if the above settings improve responsiveness, it is not a fundamental solution. To determine the cause of poor responsiveness, first check the [CPU] in [Performance] tab in [More Details] mode of Task Manager. If the CPU usage remains above 3-4% even though there is no constant load such as video player or update process such as Windows Update, some program is constantly using CPUs unnecessarily. In that case, find the program that is constantly using CPUs in the list of processes in Task Manager and stop or uninstall it.	* 请注意，即使上述设置改善了响应性，也并非根本解决方法。要确定响应性恶化的原因，首先请在任务管理器的“详细信息”显示中查看“性能”选项卡的“CPU”。如果没有视频播放等持续负载，也没有 Windows Update 等更新处理，CPU 使用率仍保持在 3～4% 以上，则说明某个程序在持续无用地使用 CPU。此时，请从任务管理器的进程列表中找到持续使用 CPU 的程序，并停止或卸载它。
+0x00318810	Store Location of History/Recovery Data and Image File Thumbnails	历史记录及作业恢复用数据、图像文件缩略图的保存位置。
+0x00318360	High	高
+0x00318318	Above Normal	正常以上
+0x003182C0	Normal (Default)	正常（默认）
+0x00318268	Process Priority :	进程执行优先级 :
+0x00317E38	Cores	核心
+0x00317D68	Number of CPU Cores Used :	使用的 CPU 核心数 :
+
+0x00318120	If the responsiveness of SAI is poor, please try the option B and decrease [Number of CPU Cores Used] by 1 or 2.	如果 SAI 响应性差，请尝试选择 B，并将[使用的 CPU 核心数]减少 1～2 个核心。
+0x00317E70	If the responsiveness of SAI is poor, such as when brush strokes are delayed, it may be improved by changing the settings below. The change of [CPU Cores Assignment] requires restarting SAI.	如果画笔笔画延迟等 SAI 响应性差，更改以下设置可能会改善。[CPU 核心分配]的更改需要重新启动 SAI 后才有效。
+0x00318070	B. Decrease the number of CPU cores used and assign with an emphasis on responsiveness	B. 限制使用的 CPU 核心数，以响应性优先进行分配
+0x00317FF0	A. Assign all CPU cores with an emphasis on processing speed	A. 分配所有 CPU 核心，以处理速度优先
+//0x003B6FA0	If the responsiveness of SAI is poor, please try the option C and decrease [Number of CPU Cores Used] by 1 or 2.	如果 SAI 响应性差，请尝试选择 C，并将[使用的 CPU 核心数]减少 1～2 个核心。
+//0x003B7090	C. Decrease the number of CPU cores used and assign with an emphasis on responsiveness	C. 限制使用的 CPU 核心数，以响应性优先进行分配
+//0x003B7140	B. Assign CPU cores to achieve the fastest response if the system is not loaded	B. 系统无负载时，分配 CPU 核心以获得最快响应。
+//0x003B71E0	A. Assign CPU cores to achieve better response even if the system is under high load (Default)	A. 即使系统高负载，也分配 CPU 核心以尽量保持响应性（默认）
+
+0x00317BC8	CPU Cores Assignment :	CPU 核心分配方式 :
+0x003B72D0	If the responsiveness of SAI is poor, such as when brush strokes are delayed, it may be improved by changing the settings below. The change of [CPU Assignment] requires restarting SAI.	如果画笔笔画延迟等 SAI 响应性差，更改以下设置可能会改善。[CPU 核心分配方式]的更改需要重新启动 SAI 后才有效。
+0x00317DA0	Countermeasure when Program is Poor Responsivity	程序响应性差时的对策
+0x00317C30	The deletion of expired recovery points and histories is executed when closing app. If specified 0, the deletion is not executed.	超过保存期限的恢复点和历史记录将在 SAI 退出时删除。设置 0 时不执行删除。
+0x00317A18	hours	小时
+0x00317A90	The keeping period of recovery point and history that unlinked from SAI2 file :	未与 SAI2 文件关联的恢复点和历史记录的保存期限 :
+0x00317840	If the last saved file type for a work is a SAI2 file, the history is linked to the SAI2 file and kept without an expiry. However the link will be lost if the SAI2 file is overwrote, renamed, moved or deleted.	如果保存为 SAI2 格式，则该时间点的历史记录会与该 SAI2 文件关联并无期限保存。但如果覆盖、重命名、移动或删除该 SAI2 文件，关联将丢失。
+0x00317760	Recover the history when opened a SAI2 file if the history of the save timing is keeping	打开 SAI2 文件时，如果保存时的历史记录仍被保存，则恢复它。
+0x003175E0	To recover works from a crash etc., keep recovery points and histories until the expiry	为了在强制退出等情况下恢复，将恢复点和历史记录保存到期限为止。
+0x003176E0	This setting is enabled from the next created/opened canvas.	从下次创建或打开的画布开始生效。
+0x00317560	This setting is enabled from the next created/opened canvas.	从下次创建或打开的画布开始生效。
+0x00317460	To suppress memory usage, evacuate history data to the local disk from main memory	为抑制内存消耗，将历史记录从内存转移到本地磁盘。
+0x003172A0	This setting is existing mainly to suppress a brush stroke(Drag) becomes a layer move(Ctrl+Drag) accidently immediately after the undo shortcut(Ctrl+Z).	此设置主要用于抑制以下情况：用 Ctrl+Z 撤销后立即进行画笔绘制时，因松开 Ctrl 键延迟而意外触发图层移动。
+0x003171D0	Duration for suppression of modifier keys after using of [Modkey + Key] :	按下[修饰键 + 键]后立即拖动时忽略修饰键的时间 :
+0x00317160	Suppression of Accidental Operation	工具误操作抑制
+0x00317090	Undo the tool group selection with a same shortcut key pressing	再次按下相同快捷键，将选择恢复到原工具组。
+0x00316FF0	Undo the tool selection with a same shortcut key pressing	再次按下相同快捷键，将选择恢复到原工具。
+0x00316F80	Toggle Behavior for Selection of Tools and Tool Groups	工具选择及工具组选择的快捷键切换操作
+0x003B7E80	Switch cyclically between tool groups assigned the same shortcut key when the key is pressed.	每次按键时，在分配了相同快捷键的多个工具组之间循环切换。
+0x003B7F40	Switch cyclically between tools assigned the same shortcut key when the key is pressed	每次按键时，在分配了相同快捷键的多个工具之间循环切换。
+0x003B7FF0	Selection Behavior for Multiple Tools and Tool Groups Assigned Same Shortcut Key.	分配了相同快捷键的多个工具及工具组的选择操作
+0x00316F20	msec	毫秒
+0x00317268	msec	毫秒
+0x00316EB0	Shift Behavior Detection Period :	判定为 Shift 操作所需的快捷键按住时间 :
+0x00316E00	Start shift behavior before the detection when a drag is started	在快捷键按住期间开始拖动时，即视为 Shift 操作。
+0x00316D80	Apply for: Reverse Horizontal for View, Ignore Ruler, Line Mode	适用于：视图水平翻转、忽略尺子、直线模式。
+0x00316BE0	Enable shift behavior for tool group selecting	启用工具组选择快捷键的 Shift 操作。。
+0x00316C40	Enable shift behavior for the current color switching	启用当前颜色切换快捷键的 Shift 操作。
+0x00316BE0	Enable shift behavior for tool group selecting	启用工具组选择快捷键的 Shift 操作。
+0x00316B60	Enable shift behavior for tool selecting	启用工具选择快捷键的 Shift 操作。
+0x00316A50	The definition of Shift-Behavior is temporary selecting of an item while the shortcut key of the item is held down.	Shift 操作的定义是：仅在按住项目快捷键期间选择该项目或启用功能，松开快捷键后恢复原状。部分功能的 Shift 操作可在快捷键分配对话框中单独设置。
+0x003169A0	Shift Behavior for Selection of Tools and Functions	工具选择及部分功能快捷键的 Shift 操作
+0x00316850	This value suppresses the sensitiveness of the pen pressure rising. And this value is applied to the click detection in Ver.1 compatible WinTab mode.	如果笔压开始过于敏感，稍微提高此值可能减轻。另外，当数位板控制为“与 Ver.1 相同方式使用 WinTab API”时，此值也会反映到点击灵敏度。
+0x00316800	Minimum Pressure :	最小笔压 :
+0x00316790	Minimum Pressure for Brush Stroke	进行画笔绘制的最小笔压
+0x00316748	Move Speed :	移动速度 :
+0x00316708	Mouse Mode	鼠标模式
+0x003165B8	Pen Mode	笔模式
+0x003165D0	The mouse mode setting in the tablet driver is always ignored on SAI. If you want to use pen as like mouse in SAI, please set it here.	SAI 始终忽略数位板驱动侧的鼠标模式设置。如果想让笔在 SAI 中像鼠标一样操作，请在此处设置，而非数位板驱动侧。
+0x00316550	Coordinate Control Mode (Mainly For Wacom Tablet)	坐标控制模式（主要用于 Wacom 数位板）
+0x00316350	On Windows Vista and 7, this mode uses TabletPC API. On Windows 8 or later, this mode uses WM_POINTER messages. The pressure resolution is suppressed to 1024 levels for WM_POINTER messages, though 1024 levels is enough for actual drawings and paintings.	Windows Vista 和 7 使用 TabletPC API，Windows 8 及更高版本使用 WM_POINTER 消息。在 WM_POINTER 通知下，笔压分辨率最大限制为 1024 级，但实际使用没有问题。
+0x003B8930	Use Windows API	使用 Windows API
+0x00316180	Use WinTab API with Ver.1 Compatible Method	使用与 Ver.1 相同方式的 WinTab API
+0x00316260	This mode does not support Microsoft WinTab Driver.	不支持 Microsoft WinTab 驱动。
+0x00316090	This mode does not support Microsoft WinTab Driver.	不支持 Microsoft WinTab 驱动。
+0x00316048	Use WinTab API	使用 WinTab API
+0x00315F20	Please select an API for pen tablet control. The bolded label is the current API. The change of API requires restarting SAI.	请选择用于数位板控制的 API。粗体标签为当前使用的 API。API 的更改需要重新启动 SAI 后才有效。
+0x00315EC8	Pen Tablet Control API	数位板控制 API
+0x00315E88	Preference	操作详细
+0x00315E48	Environment	环境
+0x00317400	History and Recovery	历史记录与恢复
+0x00315DF0	History and Recovery	历史记录与恢复
+0x00315DA8	Keyboard Operation	键盘操作
+0x00315D70	Pen Tablet	数位板
+0x00315D40	Options	设置
+0x002F0E98	Navigator	导航器
+0x003199F8	Navigator	导航器
+0x002EB1D0	View	视图
+0x003198D0	View	视图
+0x002FB5D0	View	视图
+0x002EB160	Layer	图层
+0x002F60D0	Layer	图层
+0x003191B0	Layer	图层
+0x002F0F40	Layer	图层
+
+0x00319C70	Maximum Size of Separated Navigator	分离导航器的最大尺寸
+0x00319B18	Maximum Width :	最大宽度 :
+0x00319D18	Maximum Height :	最大高度 :
+0x00319D70	Actual Maximum Width :	实际最大宽度 :
+0x00319E20	Actual Maximum Height :	实际最大高度 :
+0x00319ED0	The range of value is 512 to 4096. The actual size in pixels is scaled with [Scaling of User Interface] or monitor DPI.	取值范围为 512～4096。实际像素尺寸会随[操作面板部件尺寸]或显示器 DPI 缩放。
+
+# ===== 启动 / 初始化 / 会话错误 =====
+
+0x00308E10	Shortcut key settings data is broken.	快捷键设置数据已损坏。
+0x00308DC0	Shortcut key settings data is broken.	快捷键设置数据已损坏。
+0x003604E8	Error: Initialize application.	错误：初始化应用程序。
+0x00360850	TrueType library initialization error.	TrueType 库初始化错误。
+0x003608A0	Error: Initialize pen tablet input.	错误：初始化数位板输入。
+0x00360970	User interface language initialization error.	用户界面语言初始化错误。
+//0x003609D0	Exclusive cleanup mutex creation error.	独占清理互斥体创建错误。
+//0x00308B00	Error: Create mutex for exclusive execution.	错误：创建独占执行互斥体。
+//0x00360B00	Error: Create shared memory.	错误：创建共享内存。
+//0x00360C38	Session type not specified.	未指定会话类型。
+//0x00360C70	Asynchronous session prohibited.	禁止异步会话。
+//0x00360CB8	Drag session is not started.	拖动会话未开始。
+//0x00360D00	Cannot start synchronous session in synchronous reply.	同步回复中无法启动同步会话。
+//0x00360D70	Cannot start synchronous session recursively.	无法递归启动同步会话。
+//0x00360DD0	Cannot start synchronous session in drag session.	拖动会话中无法启动同步会话。
+//0x002CE850	GetMessage() returned -1 in modal loop. (err=%d)	模态循环中 GetMessage() 返回 -1。（错误=%d）
+//0x002CE800	GetMessage() returned 0 in modal loop.	模态循环中 GetMessage() 返回 0。
+0x0030D370	Layer size is larger than limit.	图层尺寸超过上限。
+0x0030CB50	Layer size is larger than limit.	图层尺寸超过上限。
+0x0030D2B0	Layer size is larger than limit.	图层尺寸超过上限。
+
+# ===== 导入旧版设置对话框 =====
+
+0x003129F0	Please select the installation folder of SAI Ver.2 to import settings.	请选择要导入设置的 SAI Ver.2 安装文件夹。
+0x00312940	Please select the installation folder of SAI Ver.1 to import settings.	请选择要导入设置的 SAI Ver.1 安装文件夹。
+0x00312740	If this was specified, set automatically some settings related to differences in behavior and operation from Ver.1 in [Preference] page in [Options] dialog. Please Keep in mind that the changes intended to improve will also be invalidated.	启用后，会自动将[设置]→[动作详细]中与 Ver.1 行为和操作差异相关的项目设为兼容 Ver.1。注意：Ver.2 为改进所做的更改也会一并失效。
+0x00312680	Revert the behaviors and operations changed in update of Ver.2 from Ver.1 as much as possible.	尽可能将 Ver.2 更新中改动的行为和操作还原为 Ver.1 的方式。
+0x00312590	If import from SAI Ver.2, the brush forms and textures will not be imported if this field is blank.	如果从 SAI Ver.2 导入，此栏为空时不会导入画笔形状和纹理。
+0x003124C0	Installation Path of SAI to Import Settings :	要导入设置的 SAI 安装路径 :
+0x00312420	Import Settings from SAI Ver.2 Preview.2015-04-24 to 2019-08-12	继承 SAI Ver.2 2015-04-24～2019-08-12 以前的设置。
+0x00312390	Import Settings from SAI Ver.1 (Ver.1.0.2 or later)	从 SAI Ver.1（Ver.1.0.2 或更高版本）导入设置
+0x00312338	Do Not Import Settins	不导入设置
+0x003122A0	Older version(s) of SAI is detected. Do you want to import the settings?	检测到旧版 SAI。是否导入设置？
+0x00312230	Import Settings	导入设置
+0x00312070	This import dialog is displayed if older version(s) of SAI is detected and the above folder does not exist, when SAI Ver.2 is started. If you delete the above folder and start SAI Ver.2, this dialog will be displayed again.	启动 SAI2 时，如果检测到旧版 SAI 且上述文件夹不存在，会显示此导入对话框。删除上述文件夹后再次启动 SAI2，此对话框会再次显示。
+0x003B2970	From SAI Ver.2 Preview.2019-12-31 version, the store destination of the program settings has been changed to the following folder. Also, brush forms and textures have been changed to be stored in this folder.	从 SAI Ver.2 2019-12-31 进度报告版起，程序各项设置的保存位置已更改为以下文件夹。画笔形状和纹理等也已改为保存在此文件夹中。
+0x00311DA0	About Change of Settings Store Folder	关于设置保存文件夹的更改
+0x00311D00	PaintTool SAI Ver.2 - Import Settings from Older Version	PaintTool SAI Ver.2 - 从旧版本导入设置
+0x00311C20	Unable to import settings from running SAI Ver.1. Please close SAI Ver.1.	无法从正在运行的 SAI Ver.1 导入设置。请关闭 SAI Ver.1。
+
+# ===== 通用错误 / Lib 对话框 =====
+
+0x003271F0	Cannot shutdown or logoff while a dialog box is opening.\nPlease close the dialog and retry shutdown or logoff.	对话框打开期间无法关机或注销。\n请关闭对话框后重新关机或注销。
+0x003271B8	No(N)	否(N)
+0x00327190	Yes(Y)	是(Y)
+0x00327160	Cancel(C)	取消(C)
+0x003270D8	Yes	确认
+0x00327038	Errors Occurred.	发生错误。
+0x003D53B0	WinTab driver has sent invalid packets to application.	WinTab 驱动向应用程序发送了无效数据包。
+0x003D5420	WinTab driver has returned an error.	WinTab 驱动返回了错误。
+0x003D5470	Internal state incoherence has occurred.	检测到程序内部状态异常。
+0x003D54D0	Internal data destruction has occurred.	检测到程序内部数据破坏。
+0x003D5520	An exception error has occurred.	程序内部执行了非法处理。
+0x00326CB0	The program detected an invalid data.	程序内部使用了非法数据。
+0x003D55C0	A font data read error has occurred.	发生了字体数据读取错误。
+0x003D5610	A file I/O error has occurred.	发生了文件 I/O 错误。
+0x003D5650	Windows function call has failed.	Windows 函数调用失败。
+0x003D5698	An unknown error has occurred.	发生了未知错误。
+0x00326430	OK(O)	确定(O)
+0x00327130	OK(O)	确定(O)
+
+// 属性/配置错误（内部配置解析，不建议翻译）
+//0x003D8D80	Illegal length of the property name.	属性名称长度非法。
+//0x003287E0	Data size is larger than 65535Bytes.	数据大小超过 65535 字节。
+//0x00328830	Invalid property set.	属性集无效。
+//0x00328938	Data type is not same.	数据类型不一致。
+//0x00328898	Data type is not number.	数据类型不是数字。
+//0x00328A30	Value not found.	未找到值。
+//0x003289F8	Type delimiter not found.	未找到类型分隔符。
+//0x003289C8	Equal sign not found.	未找到等号。
+//0x00328998	Value name not found.	未找到值名称。
+
+// 内存管理错误（开发者调试信息，不建议翻译）
+//0x0031F350	%p pointed outside of valid virtual address space.	%p 指向有效虚拟地址空间之外。
+//0x0031F3D8	%p has not LBI.	%p 没有 LBI。
+//0x0031F478	%p has not VTE.	%p 没有 VTE。
+//0x0031F4E8	Memory allocation error.	内存分配错误。
+//0x0031F4A0	Moderated memory allocation error.	调制内存分配错误。
+//0x0031F5F0	Broken LBI. (base=%p, lbi->base=%p..%p)	LBI 损坏。
+//0x0031F5A0	%p is not base address of sub block.	%p 不是子块的基地址。
+//0x0031F520	%p is already freed.	%p 已被释放。
+//0x0031F690	%p pointed outside of VMDAS.	%p 指向 VMDAS 之外。
+//0x0031F880	Bad memory block pointer. max=%d mbno=%d	内存块指针错误。
+//0x0031F930	The memory block is already freed.	内存块已被释放。
+//0x0031F8E0	The memory block is still pooled.	内存块仍在池中。
+//0x0031F980	This program does not support a system that SYSTEM_INFO.dwAllocationGranularity is less than 65536.	此程序不支持 SYSTEM_INFO.dwAllocationGranularity 小于 65536 的系统。
+//0x0031FD18	%p pointed outside of DAS.	%p 指向 DAS 之外。
+//0x0031FBA0	%p is not belongs in specified DA.	%p 不属于指定的 DA。
+//0x0031F830	Broken free block link. max=%d mbno=%d	空闲块链接损坏。
+//0x0031F7D0	Memory block size is smaller than 64 bytes.	内存块大小小于 64 字节。
+//0x003D9A20	Memory block size is larger than 2M bytes.	内存块大小大于 2M 字节。
+//0x0031F728	Memory block size is not 2^n.	内存块大小不是 2 的 n 次方。
+//0x0031FC20	Illegal memory block size. (size=%d)	内存块大小非法。
+//0x00325C28	Process affinity mask is zero.	进程亲和性掩码为零。
+
+# ===== 文件格式 / 字体 / 虚拟磁盘错误 =====
+
+0x003D56E0	[JPG File] The file size exceeds the limit of 2GB.	[JPG 文件] 文件大小超过 2GB 上限。
+0x00326B70	[BMP File] Illegal component mask.	[BMP 文件] 通道掩码无效。
+0x00326B00	[BMP File] Unsupported palette mode.	[BMP 文件] 不支持的调色板模式。
+0x00326A80	[BMP File] Unsupported compression mode.	[BMP 文件] 不支持的压缩模式。
+0x003D5848	[BMP File] Illegal image size.	[BMP 文件] 图像尺寸无效。
+0x00326A00	[BMP File] Illegal number of planes.	[BMP 文件] 平面数无效。
+0x003269A0	[BMP File] Illegal header size.	[BMP 文件] 文件头大小无效。
+0x003D5920	[BMP File] The contents of this file is not BMP format.	[BMP 文件] 文件内容不是 BMP 格式。
+0x003268E0	[BMP File] File contents is lacked.	[BMP 文件] 文件内容不完整。
+0x003D59D8	[TTfont] A null glyph.	[TTfont] 空字形。
+0x003D5A10	[TTfont] The requested data does not exist.	[TTfont] 请求的数据不存在。
+0x003D5A70	[TTfont] The read range extends beyond the table.	[TTfont] 读取范围超出表范围。
+0x003D5AE0	[TTfont] The requested table does not exist.	[TTfont] 请求的表不存在。
+0x003D5B40	[TTfont] The required table is not available.	[TTfont] 必需的表不存在。
+0x003D5BA0	[TTfont] The font file is corrupted.	[TTfont] 字体文件已损坏。
+0x003D5BF0	[TTfont] The size of index exceeded 4 bytes.	[TTfont] 索引大小超过 4 字节。
+0x003D5C50	[TTfont] The number of indexes exceeded 65536.	[TTfont] 索引数量超过 65536。
+0x003D5CB0	[TTfont] The data size exceeded the read buffer size.	[TTfont] 数据超过读取缓冲区。
+0x003D5D20	[TTfont] Fonts with a file size exceeding 256MB are not supported.	[TTfont] 不支持文件超过 256MB 的字体。
+0x003D5DB0	[TTfont] The font file is unsupported.	[TTfont] 不支持字体格式。
+//0x003D5E00	[Vdfile] The file pointer reached the end of file.	[Vdfile] 已到文件末尾（指针）。
+//0x003D5E70	[Vdfile] The file pointer cannot be set to the specified position.	[Vdfile] 无法将文件指针设置到指定位置。
+//0x003D5F00	[Vdfile] The file is already opened.	[Vdfile] 文件已打开。
+//0x003D5F50	[Vdfile] This file is read only.	[Vdfile] 此文件为只读。
+//0x003D5FA0	[Vdfile] The file pointer is invalid.	[Vdfile] 文件指针无效。
+//0x003D5FF0	[Vdfile] The specified size is invalid.	[Vdfile] 指定的大小无效。
+//0x003D6040	[Vdfile] The stream data is corrupted.	[Vdfile] 流数据已损坏。
+//0x003D6090	[Vdfile] The operation canceled in the error state.	[Vdfile] 在错误状态下取消了操作。
+//0x003D6100	[Vdlog] An illegal block exists.	[Vdlog] 存在非法块。
+//0x003D6150	[Vdlog] The number of blocks exceeds the limit.	[Vdlog] 数据块数量超出限制。
+//0x003D61B0	[Vdlog] The block tree range exceeds the limit.	[Vdlog] [Vdlog] 数据块索引超出范围。
+//0x003D6210	[Vdisk] Node tree is corrupted.	[Vdisk] 数据节点索引已损坏。
+//0x003D6250	[Vdisk] Node table is corrupted.	[Vdisk] 数据节点索引已损坏。
+//0x003D62A0	[Vdisk] This image is read only.	[Vdisk] 此映像为只读。
+//0x003D62F0	[Vdisk] The image size exceeds the limit.	[Vdisk] 文件大小达到上限。
+//0x003D6348	[Vdisk] SAT is corrupted.	[Vdisk] SAT 已损坏。
+//0x003D6380	[Vdisk] Unsupported image format.	[Vdisk] 不支持的文件格式。
+//0x003D63C8	[Vdisk] Bad sector number.	[Vdisk] 扇区号错误。
+//0x003D6400	[Vdisk] Bad sector size.	[Vdisk] 扇区大小错误。
+//0x003D6440	[Vdisk] The operation canceled in the error state.	[Vdisk] 在错误状态下取消了操作。
+0x00326840	[Settings] The end of section is incorrect.	[设置] 节结束位置不正确。
+0x003267E0	[Settings] Syntax error.	[设置] 语法错误。
+0x003D6540	The number of characters has reached the limit.	字符数已达到上限。
+0x003D65A0	The number of items has reached the limit.	项目数已达到上限。
+0x00326790	Internal error.	程序内部状态发生异常。
+0x00326D20	Insufficient memory.	内存不足。
+0x00326740	Insufficient memory.	内存不足。
+
+# ===== 字体表读取错误 =====
+
+0x003E5DE0	The data read range is outside the table range.	数据读取范围超出表范围。
+0x003E5E40	The data position is beyond the end of table.	数据位置超出表末尾。
+0x003E5EA0	Illegal table location. EOF=0x%08x Table=0x%08x..0x%08x	表位置无效。EOF=0x%08x Table=0x%08x..0x%08x
+0x003E5F10	The number of fonts in the TTC file exceeded the limit.	TTC 文件中的字体数量超过上限。
+
+# ===== 系统要求错误 =====
+
+0x003E8CF0	The memory allocation granularity is not 65536.	系统内存分配单位不是 65536 字节，无法启动。
+0x003E8D50	The system page size is not 4096.	系统页大小不是 4096 字节，无法启动。
+0x003D9EA0	This program requires Windows Vista or later.	此程序需要 Windows Vista 或更高版本。
+//0x00327D50	Custom library initialization error.	自定义库初始化错误。
+//0x00327CF0	System COM library initialization error.	系统 COM 库初始化错误。
+//0x00327CA0	System identifier acquisition error.	系统标识符获取错误。
+0x003DA000	This computer does not support SSE4.1.	此计算机不支持 SSE4.1。
+//0x00327BF0	System information initialization error.	系统信息初始化错误。
+//0x00327B90	Error handling module initialization error.	错误处理模块初始化错误。
+//0x00327B50	Language customize error.	语言自定义错误。
+
+
+# ===== FORCE WRITE =====
+0x00326FC4	不执行
+//0x00369C90	新建画布...	0x003992E8 
+
+# ===== POINTER FORCE =====
+

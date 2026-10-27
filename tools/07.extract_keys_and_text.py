@@ -168,6 +168,8 @@ def main():
     parser = argparse.ArgumentParser(description="提取 SAI2 的键名与文本映射表")
     parser.add_argument("--group-shared", action="store_true", help="按共用冲突组输出，把同一键名的英文/日文聚在一起")
     parser.add_argument("--shared", action="store_true", help="只输出被多个键名共用的文本")
+    parser.add_argument("--cols56", action="store_true",
+                        help="只输出第 5、6 列（文本文件偏移 + 默认文本），可直接作为 04.地址矫正.py 的 full_en 输入")
     parser.add_argument("--output", "-o", default=None, help="输出文件名（不指定则根据模式自动命名）")
     args = parser.parse_args()
 
@@ -178,12 +180,13 @@ def main():
 
     # 自动命名输出文件
     if args.output is None:
+        suffix = "-cols56" if args.cols56 else ""
         if args.shared:
-            args.output = r"keys_and_texts_map-shared.txt"
+            args.output = rf"keys_and_texts_map-shared{suffix}.txt"
         elif args.group_shared:
-            args.output = r"keys_and_texts_map-group-shared.txt"
+            args.output = rf"keys_and_texts_map-group-shared{suffix}.txt"
         else:
-            args.output = out_file
+            args.output = out_file if not args.cols56 else r"keys_and_texts_map-cols56.txt"
 
     data = open(bin_file, 'rb').read()
     pe = PEInfo(data)
@@ -230,9 +233,13 @@ def main():
         print(f"\n共发现 {len(valid_groups)} 个翻译冲突组。")
         
         with open(args.output, 'w', encoding='utf-8', newline='\n') as f:
-            f.write("# 翻译冲突组映射表\n")
-            f.write("# 把共用同一功能的英文、日文等不同语言的槽位全部聚在了一起。\n")
-            f.write("# 格式：<键名指针>\t<槽文件偏移>\t<键名>\t<文本指针(VA)>\t<文本文件偏移>\t<默认文本>\n\n")
+            if args.cols56:
+                f.write("# 翻译冲突组映射表（仅第 5、6 列：<文本文件偏移>\t<默认文本>）\n")
+                f.write("# 该格式可直接作为 04.地址矫正.py 的 full_en.txt 输入\n\n")
+            else:
+                f.write("# 翻译冲突组映射表\n")
+                f.write("# 把共用同一功能的英文、日文等不同语言的槽位全部聚在了一起。\n")
+                f.write("# 格式：<键名指针>\t<槽文件偏移>\t<键名>\t<文本指针(VA)>\t<文本文件偏移>\t<默认文本>\n\n")
             
             for texts, items in valid_groups:
                 unique_texts = sorted(list(set(t for _, _, _, _, t, _ in items)))
@@ -244,7 +251,10 @@ def main():
                 
                 for slot_off, ptr1, key_str, ptr2, text_str, text_f_off in items_sorted:
                     text_str_escaped = escape_tsv(text_str)
-                    f.write(f"0x{ptr1:08X}\t0x{slot_off:08X}\t{key_str}\t0x{ptr2:08X}\t0x{text_f_off:08X}\t{text_str_escaped}\n")
+                    if args.cols56:
+                        f.write(f"0x{text_f_off:08X}\t{text_str_escaped}\n")
+                    else:
+                        f.write(f"0x{ptr1:08X}\t0x{slot_off:08X}\t{key_str}\t0x{ptr2:08X}\t0x{text_f_off:08X}\t{text_str_escaped}\n")
                 f.write("\n")
 
     elif args.shared:
@@ -264,8 +274,12 @@ def main():
         print(f"\n共发现 {len(text_to_items)} 组共用文本。")
 
         with open(args.output, 'w', encoding='utf-8', newline='\n') as f:
-            f.write("# 共用文本映射表（仅包含被多个键名引用的文本）\n")
-            f.write("# 格式：<键名指针>\t<槽文件偏移>\t<键名>\t<文本指针(VA)>\t<文本文件偏移>\t<默认文本>\n\n")
+            if args.cols56:
+                f.write("# 共用文本映射表（仅第 5、6 列：<文本文件偏移>\t<默认文本>）\n")
+                f.write("# 该格式可直接作为 04.地址矫正.py 的 full_en.txt 输入\n\n")
+            else:
+                f.write("# 共用文本映射表（仅包含被多个键名引用的文本）\n")
+                f.write("# 格式：<键名指针>\t<槽文件偏移>\t<键名>\t<文本指针(VA)>\t<文本文件偏移>\t<默认文本>\n\n")
 
             sorted_items = sorted(text_to_items.items(), key=lambda x: len(x[1]), reverse=True)
 
@@ -278,19 +292,29 @@ def main():
                 for slot_off, ptr1, key_str, ptr2, text_str, text_f_off in items_sorted:
                     key_str_escaped = escape_tsv(key_str)
                     text_str_escaped = escape_tsv(text_str)
-                    f.write(f"0x{ptr1:08X}\t0x{slot_off:08X}\t{key_str_escaped}\t0x{ptr2:08X}\t0x{text_f_off:08X}\t{text_str_escaped}\n")
+                    if args.cols56:
+                        f.write(f"0x{text_f_off:08X}\t{text_str_escaped}\n")
+                    else:
+                        f.write(f"0x{ptr1:08X}\t0x{slot_off:08X}\t{key_str_escaped}\t0x{ptr2:08X}\t0x{text_f_off:08X}\t{text_str_escaped}\n")
                 f.write("\n")
 
     else:
         # ---- 默认全量输出 ----
         print(f"\n共找到 {len(results)} 组 [键名 + 文本] 结构！")
         with open(args.output, 'w', encoding='utf-8', newline='\n') as f:
-            f.write("# 自动提取的 键名 -> 文本 映射表\n")
-            f.write("# 格式：<键名指针>\t<槽文件偏移>\t<键名>\t<文本指针(VA)>\t<文本文件偏移>\t<默认英文文本>\n\n")
+            if args.cols56:
+                f.write("# 自动提取的文本映射表（仅第 5、6 列：<文本文件偏移>\t<默认英文文本>）\n")
+                f.write("# 该格式可直接作为 04.地址矫正.py 的 full_en.txt 输入\n\n")
+            else:
+                f.write("# 自动提取的 键名 -> 文本 映射表\n")
+                f.write("# 格式：<键名指针>\t<槽文件偏移>\t<键名>\t<文本指针(VA)>\t<文本文件偏移>\t<默认英文文本>\n\n")
             for slot_off, ptr1, key_str, ptr2, text_str, text_f_off in results:
                 key_str_escaped = escape_tsv(key_str)
                 text_str_escaped = escape_tsv(text_str)
-                f.write(f"0x{ptr1:08X}\t0x{slot_off:08X}\t{key_str_escaped}\t0x{ptr2:08X}\t0x{text_f_off:08X}\t{text_str_escaped}\n")
+                if args.cols56:
+                    f.write(f"0x{text_f_off:08X}\t{text_str_escaped}\n")
+                else:
+                    f.write(f"0x{ptr1:08X}\t0x{slot_off:08X}\t{key_str_escaped}\t0x{ptr2:08X}\t0x{text_f_off:08X}\t{text_str_escaped}\n")
 
     print(f"输出完成: {args.output}")
 
